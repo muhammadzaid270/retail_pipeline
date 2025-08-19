@@ -1,0 +1,75 @@
+Features / Challenges
+
+1️⃣ Multi-Source Input
+
+Input formats: CSV, Excel, JSON, XML.
+
+Mixed encodings (utf-8, latin1).
+
+Folder hierarchy (daily/weekly/monthly).
+
+Recursively scan folders to auto-discover files.
+
+Faker: Generate files in each format with varying messiness.
+
+2️⃣ Data Cleaning & Normalization
+
+Standardize column names, date formats, product names.
+
+Use fuzzy matching to unify product variants.
+
+Handle missing or incorrect data (derive totals from price×qty).
+
+Flag invalid rows (negative prices, impossible stock).
+
+Faker: Randomly inject typos, missing values, bad dates.
+
+3️⃣ Merging & Business Logic
+
+Merge sales, inventory, promotions datasets.
+
+Calculate KPIs:
+
+Store-level revenue per product/month
+
+Region-level aggregation
+
+Promotion-adjusted revenue/margin
+
+Inventory turnover, stock-out alerts
+
+Anomaly detection for spikes/drops
+
+Faker: Generate mismatched data to force cleanup before merge.
+
+4️⃣ Reporting
+
+Final Excel reports:
+
+Multi-sheet outputs (sales, inventory, promo summary)
+
+Charts, conditional formatting
+
+Alerts (low stock, duplicates, invalid totals)
+
+Optional CSV export for BI tools.
+
+5️⃣ Automation & Robustness
+
+Archive processed files.
+
+Detailed logging (warnings for skipped/invalid files).
+
+Configurable settings via config.py.
+
+Modular functions for each pipeline step.
+
+6️⃣ Extreme Additions (Bonus)
+
+Parallel processing for large datasets.
+
+Basic trend detection using rolling averages.
+
+Live API calls for real product price checks.
+
+Unit tests to validate cleaning and merging logic.

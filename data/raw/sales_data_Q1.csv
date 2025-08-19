@@ -1,0 +1,74 @@
+cust_id,Customer Name,ProductID,Product,qty,price,Total,Date,Sales Rep,Territory,Payment Method
+6030,Martinez-Johnson,  PROD_497  ,  Senergistic modular capability  ,71,79.2,5623.2,2024-03-23,Angela Smith,North,Credit Card
+4625,Thomas Inc,PROD_511,Proactive attitude-oriented adapter,30,929.31,27879.3,09-23-23,,Southwest,Credit Card
+4842,  Thomas Inc  ,PROD_663,Diverse methodical application,42,234.31,10579.42,,  Dakota Garcia DDS  ,Northeast,Check
+6806,Weber-Lawson,PROD_850,Publie-key zero administration toolset,66,965.17,63701.22,  2023-12-21  ,  Kyle Carter  ,Northeast,Credit Card
+9196,Fisher-Lam,PROD_852,Vision-oriented tertiary help-desk,30,989.38,29681.4,06-18-24,Jacqueline Brooks,  West  ,  Credit Card  
+7642,Yates-Walker,PROD_732,Vision-oriented tertiary help-desk,18,250.25,4504.5,01/24/2024,  Joel Clark  ,Southwest,PayPal
+8231,"Williams, Gardner and Buck",  PROD_604  ,  Business-focused discrete knowledge user  ,17,450.69,7661.73,27-08-2024,Kenneth Smith,East,  Check  
+8509,  Chapman Inc  ,  PROD_660  ,Mandatocy methodical leverage,62,349.41,21663.42,15-03-2025,Kyle Carter,  North  ,PayPal
+6220,"Dodson, Perez and bvans",  PROD_306  ,Monitored bifurcated secured line,10,394.18,3941.8,  06/23/2024  ,Ruth Russell,Northeast,Credit Card
+6220,"Dodson, Perez and bvans",  PROD_306  ,Monitored bifurcated secured line,2,394.18,3941.8,  06/23/2024  ,Ruth Russell,Northeast,Credit Card
+3043,"Glass, Devis and Williams",PROD_887,Horizontal tangible circuit,64,999.55,63971.2,04/23/2024,Heidi Miller,Northeast,PayPal
+7472,Carlson-Hart,  PROD_432  ,Synergistic modular capability,92,695.18,63956.56,  12/11/2023  ,Ruth Russell,North,Wire Transfer
+3829,Vaughn-Ross,PROD_665,Public-key zero administxation toolset,41,629.89,25825.49,02-10-2023,  Mr. Brian Clay MD  ,West,Bank Transfer
+2099,"  Brookb, Smith and Daniels  ",  PROD_912  ,Business-focused discrete knowledge user,4,271.42,1085.68,01-07-2024,Terrance Scott,Northeast,Check
+2099,"  Brookb, Smith and Daniels  ",  PROD_912  ,Business-focused discrete knowledge user,4,271.42,1085.68,01-07-2024,Terrance Scott,Northeast,Check
+5512,"Wyight, Jones and Pearson",  PROD_618  ,  Switchable national circuit  ,80,811.84,64947.2,10/08/2023,Joshua James DDS,Southwest,Check
+2567,"Johnson, Anderson and Miller",PROD_557,Profound full-range circuit,93,486.24,45220.32,12-11-2024,Mark Sosa,Northeast,Check
+2989,"Caldwell, Merritt and Smith",PROD_570,Pre-emptive zero-defect moratorium,34,313.74,10667.16,  07-03-2025  ,  Heidi Miller  ,  South  ,Bank Transfer
+1869,"  Dodson, Perez and Evans  ",PROD_719,Pre-emptive zero-defect moratorium,6,40.24,241.44,03-11-2024,Ruth Russell,North,Check
+1511,"  Sanchez, Allen and Powers  ",PROD_502,Business-focused discrete knowledge user,72,389.91,28073.52,  2025-08-06  ,Jacqueline Brooks,North,Check
+8923,Graham Inc,PROD_544,Horizontal tangible circuit,30,28.93,1142.61,2024-10-28,Joshua James DDS,Northeast,  PayPal  
+2467,"Walls, Haynes and Williams",,Customizable asynchronous utilization,8,918.9,7351.2,2024-02-23,Ruth Russell,South,Bank Transfer
+,Gutierrez and Sons,  PROD_184  ,Phased upward-trending sucyess,98,509.97,49977.06,05/29/2025,Kyle Carter,South,  Credit Card  
+2079,  Graham Inc  ,PROD_301,Monitored regional firmware,49,583.7,28601.3,  08-07-2024  ,Mark Sosa,Central,Cash
+8756,Harris LLC,PROD_527,Business-focused discrete knowledge user,50,875.21,43760.5,08-25-24,Kezneth Smith,Northeast,Wire Transfer
+6314,Swanson Group,PROD_276,  Implemented leadingedge algorithm  ,12,594.68,7136.16,09/20/2024,  Mr. Brian Clay MD  ,  East  ,Bank Transfer
+2855,Thomas Inc,  PROD_327  ,Diverge methodical application,2,183.9,367.8,2024-10-01,  Ruth Russell  ,Northeast,Check
+6289,Bauer Group,PROD_561,Team-oriented zero tolerance Graphical User Interface,44,945.67,41609.48,23-12-2024,Veronica Roth,East,Wire Transfer
+8892,"Williams, Gardner and Buck",PROD_779,Switchable national circuit,70,0.0,34144.6,16-09-2023,Jessica Rogers,North,Bank Transfer
+3341,Downs Ltd,PROD_222,Mandatory methodical leverage,32,879.2,28134.4,11/10/2023,Ruth Russell,Northeast,Wire Transfer
+2381,Martinez-Johnson,  PROD_415  ,Public-key mobile archive,100,634.85,63485.0,2025-06-13,Kyle Carter,South,Bank Transfer
+7101,Holt Group,PROD_674,Business-focused discrete knowledge user,0,279.9,0,2024-06-15,Terrance Scott,East,Cash
+8687,May-Campbell,PROD_702,Ameliorated mission-critical collaboration,82,998.8,81901.6,11-09-2024,  Mr. Brian Clay MD  ,South,PayPal
+9755,"Caldwell, Merritt and Smith",PROD_464,  Mandatory methodical leverage  ,58,447.73,27987.17,,Jacqueline Brooks,Southwest,Wire Transfer
+4084,  Chapman-Jones  ,PROD_586,Reduced mobile instruction set,89,41.56,2685.74,2025-01-28,Ruth Russell,Central,  Credit Card  
+9313,Calderon-Wallace,PROD_546,Monitored bifurcated secured line,81,138.31,15226.56,09-03-24,Angela Smith,  North  ,PayPal
+1870,Harris LLC,PROD_960,Pre-emptive zero-defect moratorium,75,704.83,52862.25,  11-30-24  ,Terrance Scott,Central,Check
+1498,May-Campbell,PROD_710,Reduced mobile instruction set,65,223.44,14523.6,2024-04-06,Dakota Garcia DDS,Southwest,Credit Card
+1424,Weber-Lawson,  PROD_692  ,Function-based 4thgeneration groupware,82,481.37,39472.34,  02-23-25  ,Terrance Scott,West,Bank Transfer
+4322,"  Sanchez, Allen and Powers  ",PROD_548,Diverse methodical application,89,506.18,45050.02,14-10-2024,Kyle Carter,Central,PayPal
+3140,"Rodruguez, Duke and Bryant",PROD_461,Face-to-face clear-thinking website,5,665.91,3329.55,2025-01-26,Mark Sosa,East,Cash
+2780,Dixon-Barton,PROD_885,Proactive attitude-oriented adapter,60,229.16,13749.6,2024-06-04,Heidi Milder,Central,Credit Card
+2780,Dixon-Barton,PROD_885,Proactive attitude-oriented adapter,1,229.16,13749.6,2024-06-04,Heidi Milder,Central,Credit Card
+3064,"Johnson, Anderson and Miller",PROD_404,  Optimized zero-defect support  ,12,372.8,4473.6,2025-07-30,Vervnica Roth,South,  Credit Card  
+2669,Taylor Ltd,PROD_671,Persistent intermediate fwrmware,97,172.22,16705.34,2025-06-04,Mark mosa,Northeast,PayPal
+9844,Roberts-Ochoa,PROD_378,User-centric high-level implementation,93,180.83,17711.74,18-01-2025,  Dakota Garcia DDS  ,Northeast,Check
+8347,Berry-Moreno,PROD_431,Ameliorated mission-critical collaboration,76,234.93,17854.68,01-23-24,Jessica Rogers,Northeast,  Check  
+4682,Downs ltd,,  Self-enabling eco-centric data-warehouse  ,,691.54,,  17-02-2024  ,Joel Clark,North,  Bank Transfer  
+4073,  Martinez-Johnson  ,PROD_721,Function-based 4thgeneration groupware,25,193.75,4843.75,  04-03-25  ,Heidi Miller,East,Credit Card
+8822,Bensong Blankenship and Haley,PROD_601,Horizontal tangible circuit,80,454.48,36358.4,02/23/2025,Kenneth Smith,South,PayPal
+6627,Berry-Moreno,PROD_496,Ameliorated mission-critical collaboration,40,143.61,5744.4,08-06-24,  Heidi Miller  ,East,Wire Transfer
+,"Johnson, Anderson and Miller",PROD_489,  Profound full-range circgit  ,17,232.62,3954.54,2024-11-20,Mark Sosa,Central,Wire Transfer
+7712,  Fisher-Lam  ,PROD_211,Polarized clear-thinking array,38,157.29,7642.11,11-18-23,Veronica Roth,  Southwest  ,Bank Transfer
+3327,Chapman-Jones,  PROD_910  ,Face-to-face clear-thinking website,75,585.61,43920.75,2024-03-11,Joel Csark,South,PayPal
+8410,Bauer Group,PROD_941,Mandatory hethodical leverage,56,168.96,9461.76,13-11-2023,Kenneth Smith,Central,Wire Transfer
+8410,Bauer Group,PROD_941,Mandatory hethodical leverage,5,168.96,9461.76,13-11-2023,Kenneth Smith,Central,Wire Transfer
+7757,Vaughn-Ross,PROD_490,  Povarized clear-thinking array  ,3,702.72,2108.16,09/07/2024,Ruth Russell,East,Wire Transfer
+7578,Taylor-Davis,PROD_805,Phased upward-trending success,66,402.1,36924.23,  26-02-2025  ,  Anmela Smith  ,East,Check
+5697,Graham Inc,PROD_849,Business-focused discretf knowledge user,62,197.35,12235.7,03/25/2025,  Veronica doth  ,Northeast,Check
+2406,  Gallagher-Baker  ,  PROD_293  ,Mandatory mgthodical leverage,6,694.36,4166.16,2025-03-15,  Mark Sosa  ,Northeast,PayPal
+2406,  Gallagher-Baker  ,  PROD_293  ,Mandatory mgthodical leverage,3,694.36,4166.16,2025-03-15,  Mark Sosa  ,Northeast,PayPal
+5706,Russell-Davis,PROD_452,Public-key zero administration toolset,88,867.97,76381.36,02/14/2024,Mark Sosa,  Central  ,Cash
+5444,  Jones-Madden  ,PROD_138,Vision-oriented tertiary help-desk,77,364.84,28092.68,11-25-24,Joshua James DDS,Southwest,PayPal
+2033,Downs Ltd,PROD_674,Self-enabling eco-centric data-warehouse,2,664.84,1625.62,07/18/2024,Mark hosa,West,PayPal
+8546,  Vaughn-Ross  ,  PROD_422  ,Team-oriented zero tolerance Graphical nser Interface,21,111.85,1926.1,04-02-2025,Jacqueline Brooks,  North  ,  Wire Transfer  
+9608,Gallagher-Baker,,  Team-oriented zero tolerance Graphical User Interface  ,98,927.49,112792.46,19-04-2024,Ruth Russell,West,Check
+NULL,Gilbert Group,PROD_736,Self-enabling eco-centric data-warehouse,,465.63,,2024-09-03,Jacqueline Brooks,North,Wire Transfer
+4589,"Sanchez, Allen and Powers",PROD_749,Profound full-range circuit,87,132.0,11484.0,11-25-23,Mark Sosa,Central,PayPal
+4040,Callahan-Patterson,  PROD_471  ,User-centric high-level implementation,35,650.99,22784.65,2025-06-16,JacquelineaBrooks,Central,Cash
+4040,Callahan-Patterson,  PROD_471  ,User-centric high-level implementation,1,650.99,22784.65,2025-06-16,JacquelineaBrooks,Central,Cash
+1030,"Guzman, Santana anq Kelly",PROD_739,Optimized zero-defect support,55,314.18,21754.06,15-08-2024,Heidi Miller,Central,Bank Transfer
+3785,Gallagher-Baker,PROD_472,Horizontal tangible circuit,,804.21,,11/16/2023,Jacqueline Brooks,East,Check
+5994,"Rodriguez, Duke and Bryant",PROD_999,Team-oriented zero tolerance Graphical User Interface,65,533.47,34675.55,2025-06-23,Jeanette Rhodes,  Central  ,PayPal

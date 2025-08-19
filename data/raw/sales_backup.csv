@@ -1,0 +1,102 @@
+customer_id,cust_company,sku_code,product_desc,order_qty,list_price,line_total,order_date,account_mgr,sales_territory,payment_terms,email,phone,shipping_address,order_priority,tax_amount
+6899,Chapman-Jones,PROD_511,Switchable national circuit,56,474.34,N/A,04-19-25,Joel Clark,,Cash,millermarcus@example.com,(869)906-1038,,High,
+3791,,PROD_508,Reduced mobile instruction set,35,NULL,17589.25,15-01-2024,Kenneth Smith,,Wire Transfer,,,,,1407.14
+7820,Vaughn-Ross,PROD_685,Polarized clear-thinking array,45,NULL,20595.15,2023-12-26,Kenneth Smith,  Southwest  ,PayPal,bethanyfisher@example.org,,,Low,1647.61
+2636,Berry-Moreno,PROD_424,Switchable national circuit,95,942.78,63137.8,,Ruth Russell,South,,timothy93@example.com,,,Medium,5051.02
+3660,Parker and Sons,PROD_513,Team-oriented well-modulated access,33,854.62,28202.46,,,West,Wire Transfer,,,,Low,2256.2
+4009,"  Williams, Garwner and Buck  ",PROD_644,Phased upward-trending success,22,NULL,5545.26,,Jessica Rogers,Southwest,  Credit Card  ,,,,Low,443.62
+4009,"  Williams, Garwner and Buck  ",PROD_644,Phased upward-trending success,4,232.54,N/A,,,Southwest,  Credit Card  ,,,"230 Raymond Turnpike Suite 477
+North Jason, VI 73559",Medium,
+3329,Nguyen-Leonard,PROD_569,Public-key zero administration toolset,N/A,69.64,N/A,10-01-24,  Jeanette Rhodes  ,South,  Wire Transfer  ,,,,,
+9130,,PROD_252,Face-to-face clear-thinking website,0,402.67,0,,Dakota Garcia DDS,South,,,2199541517,,Medium,0.0
+7572,"Dodson, Perez and Evans",PROD_428,,38,NULL,N/A,2024-05-07,Veronica Roth,Central,PayPal,,,,Medium,
+2260,,PROD_348,Self-enabling eco-centric data-warehouse,N/A,76.25,6786.25,,Mr. Brian Clay MD,  West  ,,,,,,542.9
+6583,,PROD_213,Implemented leadingedge algorithm,70,28.22,N/A,25-01-2025,Mark Sosa,  South  ,Credit Card,jacqueline16@example.org,,,,
+8790,Berry-Moreno,PROD_655,Optimized zero-defect support,N/A,74.24,N/A,,Kenneth Smith,  North  ,Credit Card,,001-531-804-8644x419,,Low,
+9988,"Williads, Gardner and Buck",PROD_434,Pre-emptive zero-defect moratorium,77,110.1,8477.7,  2024-07-19  ,  Ruth Russell  ,South,Cash,zoe38@example.org,+1-244-990-7359,,High,678.22
+3116,Graham Inc,PROD_185,,61,NULL,12389.1,06-13-25,  Ruth Russell  ,West,  Bank Transfer  ,patelkevin@example.org,+1-292-575-8199x0908,,High,991.13
+8135,Nguyen-Leonard,PROD_575,Pre-emptive zero-defect moratorium,73,NULL,72010.12,2024-11-11,  Terrance Scott  ,South,Credit Card,stevenharris@example.net,,,,5760.81
+,  Taylor Ltd  ,PROD_237,,81,218.96,17735.76,2024-10-06,,West,Wire Transfer,,,,Medium,1418.86
+5778,,PROD_184,,N/A,131.15,11803.5,  2024-06-30  ,,,Check,,,,Low,944.28
+8933,,PROD_772,Polarized clear-thinking array,63,290.3,18288.9,03/17/2025,,,Bank Transfer,,,,Low,1463.11
+4465,Fisher-Lam,PROD_256,Vision-oriented optimizing matrix,N/A,57.98,2725.06,09-06-2024,,Central,  Check  ,,,"591 Juan Junction
+Claytonberg, GA 41812",,218.0
+5415,,PROD_224,Profound full-range circuit,24,105.88,2541.12,  10/12/2024  ,,Central,,,,,High,203.29
+5868,Carlson-Hart,  PROD_156  ,Phased upward-trending success,31,376.19,11661.89,2024-02-03,Kyle Carter,Southwest,Credit Card,,,,,932.95
+8152,Chapman Inc,PROD_933,Persistent intermediate firmware,41,161.95,6639.95,,  Mr. Brian Clay MD  ,North,,,,"103 Sanchez Hollow Suite 441
+New Kristyside, KY 64723",,531.2
+6886,Joneu-Madden,PROD_480,User-centric high-level implementation,1,NULL,489.48,2023-12-23,Kenneth Smith,North,Check,mgriffin@example.com,,,,39.16
+8802,,PROD_588,,,825.8,,2023-10-17,  Joel Clark  ,Northeast,PayPal,,,,High,
+5604,"Walls, Haynes and Williams",PROD_958,,64,,N/A,,Veronica Roth,,  Credit Card  ,,,,Medium,
+9198,Goodwin-Anderson,PROD_299,  Phased upward-trending success  ,N/A,148.7,8773.3,2025-03-24,Terrance Scott,,PayPal,,626.504.9431x4297,"28831 Kristen Pine
+Whiteland, MS 04626",Medium,701.86
+2555,Payne-Callahan,PROD_607,Profound full-range circuit,4,586.12,2344.48,04-04-2024,  Mr. Brian Clay MD  ,Northeast,Bank Transfer,melissa53@example.org,,,,187.56
+9910,Mcintosh and Sons,PROD_765,Proactive attitude-oriented adapter,54,NULL,42712.38,2025-06-24,Joshua James DDS,  West  ,Cash,,215-685-8099,,High,3416.99
+1056,"  Wright, Jones and Pearson  ",PROD_115,,4,NULL,2753.2,  2024-01-31  ,,Northeast,Bank Transfer,,,,Low,220.26
+9786,Jones-Madden,PROD_185,,34,0.0,9467.64,10/11/2024,Mr. Brian Clay MD,East,PayPal,andersonmariah@example.com,404-677-9238,,Low,757.41
+7355,,PROD_979,,N/A,489.22,3913.76,2024-08-06,Jessica Rogers,,Wire Transfer,,462.767.4289,,Medium,313.1
+6694,"  Walls, Haynes and Williams  ",PROD_605,Pubwic-key mobile archive,N/A,570.39,48329.07,04/08/2024,Terrance Scott,  Southwest  ,Credit Card,,,,Low,3866.33
+9582,,PROD_666,,71,573.2,N/A,07-23-24,Jacqueline Brooks,South,Wire Transfer,,612-580-8980x36248,,,
+3103,,PROD_114,,N/A,NULL,2858.68,  22-07-2025  ,Joel Clark,  Northeast  ,Cash,,,,Low,228.69
+9135,Mcintosh and Sons,PROD_401,Public-key zero administration toolset,96,NULL,32182.08,2024-12-30,Mr. Brian Clay MD,North,Wire Transfer,robertscharles@example.com,,,High,2574.57
+7757,,PROD_834,  Mandatory methodical leverage  ,N/A,NULL,6019.96,2025-01-07,,East,Cash,michellereilly@example.org,,,Medium,481.6
+3184,,PROD_765,Mandatory methodical leverage,N/A,464.48,16256.8,2025-03-23,Jessica Rogers,Northeast,Bank Transfer,,,,High,1300.54
+6962,Graham Inc,PROD_588,  Proactive attitude-oriented adapter  ,40,0.0,12393.6,06-09-2023,Joshua James DDS,South,Wire Transfer,jasmine58@example.org,+1-385-202-5419,,High,991.49
+5657,Yates-Walker,PROD_844,Ameliorated mission-critical collaboration,21,0.0,12509.07,  11-25-23  ,  Kyle Carter  ,Southwest,Cash,,,,Low,1000.73
+3133,Roberts-Ochoa,PROD_257,,N/A,142.26,9246.9,18-08-2024,,South,Wire Transfer,dickersonjohn@example.com,,,Low,739.75
+9236,Chapman Inc,  PROD_573  ,  Monitored regional firmware  ,N/A,NULL,,,Anrela Smith,Central,,,,,,
+2520,Roberts-Ochoa,PROD_497,Synergistic modular capability,N/A,815.16,31390.36,,Jeanette Rhodes,West,Check,jorge28@example.org,,"695 Jennifer Corner
+Port Kimberlymouth, NH 02232",,2511.23
+3953,N/A,PROD_234,,19,572.79,10883.01,08-27-23,Jeanexte Rhodes,South,  Check  ,,,,,870.64
+4103,Weber-Lawson,PROD_297,Team-oriented well-modulated access,86,53.63,N/A,  04/29/2024  ,,North,Bank Transfer,,,,,
+7666,,PROD_943,,N/A,430.81,10339.44,01-22-25,Kyle Carter,West,PayPal,,,,Low,827.16
+2169,Mcintosh and Sons,  PROD_788  ,User-centric high-level implementation,40,221.47,N/A,2024-03-12,Dakota Garcia DDS,,,,,"97205 Dennis Lock Suite 133
+Lake Ryan, PR 99893",Low,
+9055,Grahwm Inc,PROD_651,Public-key zero administration toolset,N/A,NULL,25474.05,2025-06-18,Kyle Carter,,Wire Transfer,,,,Low,2037.92
+8819,,PROD_634,Business-focused discrete knowledge user,53,674.83,35765.99,26-06-2024,,West,,,366-985-1491x30442,,High,2861.28
+,N/A,PROD_622,Horizontal tangible circuit,N/A,707.12,N/A,2024-06-24,  Veronica Roth  ,Southwest,,,,,,
+1035,Weber-Lawson,  PROD_714  ,,97,606.91,58870.27,2024-06-02,Heidi Miller,  Southwest  ,,benjaminhammond@example.org,,,Low,4709.62
+8611,"Sanchez, Allen and Powers",PROD_954,Mandatory methodical leverage,98,344.2,N/A,08-05-2024,Joel Clark,,Bank Transfer,dayers@example.net,,,Medium,
+,"Caldwell, Merritt and Smith",PROD_114,,84,694.48,58336.32,,Mark Sosa,,,,001-801-944-4382x00349,"2323 Michael Throughway
+North Haileyshire, GA 57309",Medium,4666.91
+5957,  Black-Jimenez  ,PROD_664,Self-enabling eco-centric data-warehouse,3,661.75,1520.72,,Mr. Brian Clay MD,North,Cash,,,"713 Leonard Ways
+South Leslieport, HI 09763",Medium,121.66
+3265,"Guzman, Santana and Kelly",PROD_973,Implemented leadingedge algorithm,20,NULL,19948.0,2025-04-05,,West,Wire Transfer,bethany30@example.com,4358349073,,,1595.84
+1269,Martinez-Johnson,PROD_182,Persistent intermediate firmware,72,80.19,N/A,  2025-05-15  ,Veronica Roth,Central,Cash,tharris@example.com,,,High,
+2470,Gutierrez and Sons,  PROD_464  ,Profound full-range circuit,N/A,432.29,15130.15,03-05-24,Angela Smiph,East,PayPal,,,,,1210.41
+1763,Jones-Madden,PROD_965,Vision-oriented optimizing matrix,11,361.43,N/A,09-12-2023,Jacqueline Brooks,West,  PayPal  ,bakerchristopher@example.com,,,Medium,
+4232,Swanson Group,PROD_195,,83,NULL,41627.82,2024-04-02,Ruth Ruysell,Northeast,Check,,,"57108 Wells Villages Suite 105
+Caseyland, SD 76768",,3330.23
+4161,"Caldwell, Merritt and Smith",PROD_596,Reduced mobile instruction set,80,NULL,2797.6,2025-01-08,,,  Check  ,,,,Low,223.81
+6119,Vaughn-Ross,PROD_390,,65,608.16,39530.4,,,North,  Wire Transfer  ,sherry78@example.com,,"53655 Michael Union
+Port Amanda, CO 20943",Medium,3162.43
+6119,,PROD_390,Phased upward-trending success,N/A,608.16,39530.4,  2025-05-19  ,,,  Wire Transfer  ,,894-791-3468x51478,"699 Perez Knolls
+Burnsstad, WY 57630",,3162.43
+8118,"  Caldwell, Merritt and Smith  ",PROD_758,Persistent intermediate firmware,21,412.47,N/A,,Heidi Miller,North,Bank Transfer,virginiameyer@example.org,542.397.4005x716,"204 James River Suite 865
+Goodwinfurt, NH 69544",High,
+4329,,PROD_127,  User-centroc high-level implementation  ,,168.74,,09/22/2023,Joshua Jrmes DDS,  North  ,,,,"8862 Villarreal Hollow Suite 262
+East Lisa, ME 93982",Low,
+4262,Gallagher-Baker,PROD_295,,43,307.87,13238.41,,Jeanette Rhodes,North,Bank Transfer,garcialindsay@example.org,(540)250-0655x3007,,,1059.07
+8987,Russell-Davis,PROD_450,Polarized clear-thinking array,51,769.84,39261.84,,Mr. Brfan Clay MD,  Southwest  ,,,(644)246-0040x48055,"9443 Kimberly Villages
+Nelsonview, PR 44661",,3140.95
+7097,Callahan-Patterson,  PROD_683  ,  Optimized zero-defect support  ,35,153.21,5362.35,08-04-2025,  Kyle Carter  ,,Check,,6209628478,,Low,428.99
+9968,Horn-Roberts,PROD_374,Mandatory methodical leverage,N/A,679.29,51626.04,2024-03-31,Jeanette Rhodes,North,,richard53@example.com,,,Medium,4130.08
+7814,Nguyen-Leonard,PROD_263,Phased upward-trending success,N/A,NULL,26829.9,,Mark Sosa,South,Cash,,,,,2146.39
+3015,Chapmgn Inc,PROD_838,,88,NULL,38481.9,2024-12-09,,,  Bank Transfer  ,,+1-768-712-3144,,,3078.55
+1398,Thomas Inc,PROD_695,Public-key mobile archive,73,65.53,4783.69,  05/03/2024  ,,  North  ,,,,"Unit 7946 Box 3263
+DPO AA 49516",,382.7
+2586,Jones-Madden,PROD_495,Public-key mobile archive,24,50.42,1210.08,2024-04-13,Ruth Russell,Central,PayPal,,640.495.2424,"24557 Ryan Spur Apt. 670
+Port Stephanie, AS 57713",Medium,96.81
+3921,Taylor Ltd,PROD_823,,63,278.64,17554.32,  2024-05-08  ,Kyle Carter,West,Bank Transfer,bcuevas@example.com,,,High,1404.35
+3153,,  PROD_169  ,Public-key zero adainistration toolset,97,559.12,54234.64,2024-04-25,Jessica Rogers,West,Bank Transfer,,,,Medium,4338.77
+2844,"Wright, Jones and Pearson",PROD_322,Self-enabling eco-centric data-warehouse,N/A,171.69,5665.77,02/05/2024,,South,,sawyerpeter@example.com,,,Medium,453.26
+8542,Carlson-Hrrt,PROD_704,  Team-oriented zero tolerance Graphical User Interface  ,48,220.6,N/A,11-30-24,,South,  Cash  ,ryanboone@example.org,,,Medium,
+7323,Martinez-Johnson,  PROD_630  ,Phased upward-trending success,N/A,988.98,53404.92,Invalid Date,Joel Clark,Northeast,Credit Card,,,,,4272.39
+9756,Berry-Moreno,PROD_698,Ameliorated mission-critical coilaboration,4,NULL,N/A,2024-10-19,Heidi Miller,Southwest,PayPal,,,"Unit 2415 Box 3843
+DPO AE 29098",Medium,
+8749,"Glass, Davis and Williams",PROD_839,Polarized next generation encryption,N/A,244.59,16142.94,09-02-2024,,,,fwatson@example.net,(304)595-8089x585,"6427 Mary Drive
+West Deborahchester, AR 62398",High,1291.44
+3100,"Walls, Haynes and Williams",PROD_946,Diverse methodical application,59,537.88,31734.92,04-12-24,Jacqueline Brooks,North,Check,ulevy@example.net,,,Medium,2538.79
+3394,,PROD_679,  Monitored bifurcated secured line  ,62,103.86,N/A,,Terrance Sxott,Southwest,,,+1-221-315-8720,,High,
+7547,,PROD_612,Switchable national circuit,86,633.8,N/A,29-05-2024,Ruth Russell,Northeast,PayPal,,,,High,
+3342,,PROD_987,Team-oriented well-modulated access,88,350.79,30869.52,12-05-2025,Mark Sosa,,,,,,,2469.56

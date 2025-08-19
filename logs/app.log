@@ -1,0 +1,92 @@
+2025-08-18 17:40:04,722 - INFO - main.py:8 - ------Program Started-----
+2025-08-18 17:40:48,905 - INFO - main.py:8 - ------Program Started-----
+2025-08-18 17:47:16,366 - INFO - main.py:8 - ------Program Started-----
+2025-08-18 19:19:49,819 - INFO - main.py:7 - ------Program Started-----
+2025-08-18 19:20:31,809 - INFO - main.py:7 - ------Program Started-----
+2025-08-18 20:07:10,136 - INFO - main.py:7 - ------Program Started-----
+2025-08-18 20:11:37,345 - INFO - main.py:7 - ------Program Started-----
+2025-08-18 20:12:13,091 - INFO - main.py:7 - ------Program Started-----
+2025-08-18 20:53:00,003 - INFO - main.py:8 - ------Program Started-----
+2025-08-18 20:53:00,063 - ERROR - load_files.py:21 - Parsing error in file: C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv
+2025-08-18 20:53:00,124 - INFO - load_files.py:16 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_backup.csv
+2025-08-18 20:53:00,173 - INFO - load_files.py:16 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_data_Q1.csv
+2025-08-18 20:53:00,198 - WARNING - main.py:30 - The following file failed to load: C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv
+2025-08-18 20:55:52,947 - INFO - main.py:8 - ------Program Started-----
+2025-08-18 20:55:52,952 - ERROR - load_files.py:21 - Parsing error in file: C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv
+2025-08-18 20:55:52,959 - INFO - load_files.py:16 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_backup.csv
+2025-08-18 20:55:52,965 - INFO - load_files.py:16 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_data_Q1.csv
+2025-08-18 20:55:52,968 - WARNING - main.py:30 - The following file failed to load: C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv
+2025-08-18 20:56:47,629 - INFO - main.py:8 - ------Program Started-----
+2025-08-18 20:56:47,636 - ERROR - load_files.py:21 - Parsing error in file: C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv
+2025-08-18 20:56:47,648 - INFO - load_files.py:16 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_backup.csv
+2025-08-18 20:56:47,655 - INFO - load_files.py:16 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_data_Q1.csv
+2025-08-18 20:56:47,663 - WARNING - main.py:30 - The following file failed to load: C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv
+2025-08-18 21:00:13,062 - INFO - main.py:8 - ------Program Started-----
+2025-08-18 21:00:13,070 - ERROR - load_files.py:21 - Parsing error in file: C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv
+2025-08-18 21:00:13,087 - INFO - load_files.py:16 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_backup.csv
+2025-08-18 21:00:13,095 - INFO - load_files.py:16 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_data_Q1.csv
+2025-08-18 21:00:13,110 - WARNING - main.py:30 - The following file failed to load: C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv
+2025-08-18 21:01:12,944 - INFO - main.py:8 - ------Program Started-----
+2025-08-18 21:01:12,968 - ERROR - load_files.py:21 - Parsing error in file: C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv
+2025-08-18 21:01:13,012 - INFO - load_files.py:16 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_backup.csv
+2025-08-18 21:01:13,038 - INFO - load_files.py:16 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_data_Q1.csv
+2025-08-18 21:01:13,041 - WARNING - main.py:30 - The following file failed to load: C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv
+2025-08-18 21:06:00,711 - INFO - main.py:8 - ------Program Started-----
+2025-08-18 21:06:00,716 - ERROR - load_files.py:24 - Parsing error in file: C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv
+2025-08-18 21:06:00,741 - INFO - load_files.py:19 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_backup.csv
+2025-08-18 21:06:00,745 - INFO - load_files.py:19 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_data_Q1.csv
+2025-08-18 21:06:00,749 - WARNING - main.py:30 - The following file failed to load: C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv
+2025-08-18 21:18:58,944 - INFO - main.py:9 - ------Program Started-----
+2025-08-18 21:18:58,958 - INFO - load_files.py:14 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv
+2025-08-18 21:18:58,964 - INFO - load_files.py:14 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_backup.csv
+2025-08-18 21:18:58,968 - INFO - load_files.py:14 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_data_Q1.csv
+2025-08-18 21:29:12,286 - INFO - main.py:9 - ------Program Started-----
+2025-08-18 21:29:12,297 - INFO - load_files.py:14 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv
+2025-08-18 21:29:12,304 - INFO - load_files.py:14 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_backup.csv
+2025-08-18 21:29:12,309 - INFO - load_files.py:14 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_data_Q1.csv
+2025-08-18 21:29:54,489 - INFO - main.py:9 - ------Program Started-----
+2025-08-18 21:29:54,497 - ERROR - load_files.py:19 - Parsing error in file: C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv
+2025-08-18 21:29:54,509 - INFO - load_files.py:23 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv on retry
+2025-08-18 21:29:54,520 - INFO - load_files.py:14 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_backup.csv
+2025-08-18 21:29:54,532 - INFO - load_files.py:14 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_data_Q1.csv
+2025-08-18 21:30:40,474 - INFO - main.py:9 - ------Program Started-----
+2025-08-18 21:30:40,481 - ERROR - load_files.py:19 - Parsing error in file: C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv
+2025-08-18 21:30:40,484 - ERROR - load_files.py:25 - Retry failed for C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv: Error tokenizing data. C error: Expected 1 fields in line 6, saw 2
+
+2025-08-18 21:30:40,500 - INFO - load_files.py:14 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_backup.csv
+2025-08-18 21:30:40,515 - INFO - load_files.py:14 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_data_Q1.csv
+2025-08-18 21:30:40,531 - WARNING - main.py:31 - The following file failed to load: C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv
+2025-08-18 21:32:23,576 - INFO - main.py:9 - ------Program Started-----
+2025-08-18 21:32:23,583 - ERROR - load_files.py:19 - Parsing error in file: regional_sales.csv
+2025-08-18 21:32:23,587 - ERROR - load_files.py:25 - Retry failed for regional_sales.csv: Error tokenizing data. C error: Expected 1 fields in line 6, saw 2
+
+2025-08-18 21:32:23,597 - INFO - load_files.py:14 - Loaded sales_backup.csv
+2025-08-18 21:32:23,613 - INFO - load_files.py:14 - Loaded sales_data_Q1.csv
+2025-08-18 21:32:23,617 - WARNING - main.py:31 - The following file failed to load: C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv
+2025-08-18 21:34:05,342 - INFO - main.py:9 - ------Program Started-----
+2025-08-18 21:34:05,349 - ERROR - load_files.py:19 - Parsing error in file: regional_sales.csv
+2025-08-18 21:34:05,360 - INFO - load_files.py:23 - Loaded C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv on retry
+2025-08-18 21:34:05,368 - INFO - load_files.py:14 - Loaded sales_backup.csv
+2025-08-18 21:34:05,383 - INFO - load_files.py:14 - Loaded sales_data_Q1.csv
+2025-08-18 21:34:56,982 - INFO - main.py:9 - ------Program Started-----
+2025-08-18 21:34:56,988 - ERROR - load_files.py:19 - Parsing error in file: regional_sales.csv
+2025-08-18 21:34:56,998 - INFO - load_files.py:23 - Loaded regional_sales.csv on retry
+2025-08-18 21:34:57,004 - INFO - load_files.py:14 - Loaded sales_backup.csv
+2025-08-18 21:34:57,010 - INFO - load_files.py:14 - Loaded sales_data_Q1.csv
+2025-08-18 21:36:59,120 - INFO - main.py:9 - ------Program Started-----
+2025-08-18 21:36:59,127 - ERROR - load_files.py:19 - Parsing error in file: regional_sales.csv
+2025-08-18 21:36:59,138 - INFO - load_files.py:23 - Loaded regional_sales.csv on retry
+2025-08-18 21:36:59,150 - INFO - load_files.py:14 - Loaded sales_backup.csv
+2025-08-18 21:36:59,156 - INFO - load_files.py:14 - Loaded sales_data_Q1.csv
+2025-08-18 21:37:29,512 - INFO - main.py:9 - ------Program Started-----
+2025-08-18 21:37:29,520 - INFO - load_files.py:14 - Loaded regional_sales.csv
+2025-08-18 21:37:29,526 - INFO - load_files.py:14 - Loaded sales_backup.csv
+2025-08-18 21:37:29,531 - INFO - load_files.py:14 - Loaded sales_data_Q1.csv
+2025-08-19 07:46:16,099 - INFO - main.py:9 - ------Program Started-----
+2025-08-19 07:46:16,118 - ERROR - load_files.py:19 - Parsing error in file: regional_sales.csv
+2025-08-19 07:46:16,141 - INFO - load_files.py:23 - Loaded regional_sales.csv on retry
+2025-08-19 07:46:16,165 - INFO - load_files.py:14 - Loaded sales_backup.csv
+2025-08-19 07:46:16,186 - INFO - load_files.py:14 - Loaded sales_data_Q1.csv
+2025-08-19 07:49:14,407 - INFO - main.py:9 - ------Program Started-----
+2025-08-19 07:49:14,410 - ERROR - load_files.py:20 - Parsing error in file: regional_sales.csv
+2025-08-19 07:49:14,415 - INFO - load_files.py:14 - Loaded sales_backup.csv
