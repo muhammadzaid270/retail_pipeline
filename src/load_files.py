@@ -2,45 +2,11 @@ import logging
 import pandas as pd
 from pathlib import Path
 
+#Set up logger object
 logger = logging.getLogger(__name__)
 
-# def load_csv_files(files): 
-#     # dfs = []
-#     failed_files = []
-    
-#     for file in files:
-#         try:
-#             df = pd.read_csv(file)
-#             yield df
-#             logger.info(f"Loaded {file.name}")
-
-#         except pd.errors.EmptyDataError:
-#             logger.error(f"File is empty: {file.name}")
-#             failed_files.append(file)
-
-#         except pd.errors.ParserError:
-#             logger.error(f"Parsing error in file: {file.name}")
-#             try:
-#                 df = pd.read_csv(file, sep=';', on_bad_lines='skip')
-#                 yield df
-#                 logger.info(f"Loaded {file.name} on retry")
-#             except Exception as e:
-#                 logger.error(f"Retry failed for {file.name}: {e}")
-#                 failed_files.append(file)
-
-#         except FileNotFoundError:
-#             logger.error(f"File not found: {file.name}")
-#             failed_files.append(file)
-
-#         except Exception as e:
-#             logger.error(f"Unexpected error reading {file.name}: {e}")
-#             failed_files.append(file)
-
-#     # combined_df = pd.concat(dfs, ignore_index=True) if dfs else pd.DataFrame()
-#     return failed_files 
-
-
 class DataLoader():
+    #Object Constructor for files
     def __init__(self, files):
         self.files = files 
         self.failed_files = []
@@ -48,23 +14,30 @@ class DataLoader():
     def __iter__(self):
         for file in self.files:
             df = self.load_file(file)
-            if df is not None:
+            if df is not None and not df.empty:
                 yield df
     
     def load_file(self, file):
-        suffix = Path(file).suffix.lower()
+        file = Path(file)
+        suffix = file.suffix.lower()
 
         loaders = {
-            '.csv': lambda f: pd.read_csv(f),
-            'xlsx': lambda f: pd.read_excel(f),
-            'xls': lambda f: pd.read_excel(f),
-            'json': lambda f: pd.read_json(f)
+            '.csv': pd.read_csv,
+            'xlsx': pd.read_excel,
+            'xls': pd.read_excel,
+            'json': pd.read_json
         }
+
         try:
-            if suffix not in loaders:
-                raise ValueError("No supported file type")
+            loader = loaders.get(suffix)
+            if not loader:
+                logger.error(f"Not supported file type for file: {file.name}")
+                self.failed_files.append(file)
+                return None
             else:
-                return loaders[suffix](file)
+                df = loader(file)
+                logger.info(f"Loaded file: {file.name}")
+                return df
         
         except pd.errors.EmptyDataError:
             logger.error(f"File is empty: {file.name}")
@@ -72,12 +45,18 @@ class DataLoader():
             return None
 
         except pd.errors.ParserError:
-            logger.error(f"Parsing error in file: {file.name}")
-            try:
-                logger.info(f"Loaded {file.name} on retry")
-                return pd.read_csv(file, on_bad_lines='skip')
-            except Exception as e:
-                logger.error(f"Retry failed for {file.name}: {e}")
+            logger.error(f"Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: {file.name}")
+            if suffix == '.csv':
+                try:
+                    df =  pd.read_csv(file, on_bad_lines='skip') 
+                    logger.info(f"Loaded {file.name} on retry")
+                    return df
+                except Exception as e:
+                    logger.error(f"Retry failed for {file.name}: {e}")
+                    self.failed_files.append(file)
+                    return None
+            else:
+                logger.error(f"Cannot retry parsing for non-CSV file: {file.name}")
                 self.failed_files.append(file)
                 return None
 
@@ -85,9 +64,8 @@ class DataLoader():
             logger.error(f"File not found: {file.name}")
             self.failed_files.append(file)
             return None
+        
         except Exception as e:
             logger.error(f"Unexpected error reading {file.name}: {e}")
             self.failed_files.append(file)
             return None
-
-
