@@ -1,9 +1,11 @@
 from src import config
 from src.check_files import get_csv_files, get_excel_files, get_json_files
-from src.load_files import load_csv_files
+from src.load_files import DataLoader
 import logging
+import time
 
 def main():
+    start_time = time.time()
     config.setup_logging() 
     logger = logging.getLogger(__name__)
     logger.info("------Program Started-----")
@@ -23,15 +25,21 @@ def main():
         return
     
     #Load CSV Data
-    df, failed_files = load_csv_files(raw_csv_files)
-    if df.empty:
-        logger.warning(f"No csv data loaded")
-    if failed_files:
-        for file in failed_files:
-            logger.warning(f"The following file failed to load: {file}")
-    # print(df.shape)
-    # print(df.head())
+    # df, failed_files = load_csv_files(raw_csv_files)
+    # if df.empty:
+    #     logger.warning(f"No csv data loaded")
+    # if failed_files:
+    #     for file in failed_files:
+    #         logger.warning(f"The following file failed to load: {file}")
     
+    load_data = DataLoader(raw_csv_files)
+    for df in load_data:
+        pass
+
+    end_time = time.time()
+
+    print(f"Elapsed: {end_time - start_time:.2f} seconds")
+
 
 if __name__ == '__main__':
     main()
