@@ -13,10 +13,14 @@ class DataLoader():
 
     def __iter__(self):
         for file in self.files:
-            df = self.load_file(file)
-            if df is not None and not df.empty:
-                yield df
-    
+            result = self.load_file(file)
+            if result is not None:
+                file_name, df = result
+                if not df.empty:
+                   yield file_name, df
+                else:
+                   logger.warning(f"DataFrame is empty for file: {file_name}")
+
     def load_file(self, file):
         file = Path(file)
         suffix = file.suffix.lower()
@@ -37,7 +41,7 @@ class DataLoader():
             else:
                 df = loader(file)
                 logger.info(f"Loaded file: {file.name}")
-                return df
+                return file.name, df
         
         except pd.errors.EmptyDataError:
             logger.error(f"File is empty: {file.name}")
@@ -48,9 +52,9 @@ class DataLoader():
             logger.error(f"Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: {file.name}")
             if suffix == '.csv':
                 try:
-                    df =  pd.read_csv(file, on_bad_lines='skip') 
+                    df =  pd.read_csv(file, sep=';', on_bad_lines='skip') 
                     logger.info(f"Loaded {file.name} on retry")
-                    return df
+                    return file.name, df
                 except Exception as e:
                     logger.error(f"Retry failed for {file.name}: {e}")
                     self.failed_files.append(file)
