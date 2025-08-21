@@ -1,6 +1,7 @@
 from src import config
 from src.check_files import get_csv_files, get_excel_files, get_json_files
 from src.load_files import DataLoader
+from src.clean_data import DataCleaner
 import logging
 import time
 
@@ -24,20 +25,24 @@ def main():
         logger.warning("No JSON files found. Exiting")
         return
     
-    #Load CSV Data
-    # df, failed_files = load_csv_files(raw_csv_files)
-    # if df.empty:
-    #     logger.warning(f"No csv data loaded")
-    # if failed_files:
-    #     for file in failed_files:
-    #         logger.warning(f"The following file failed to load: {file}")
-    
+    #Creating object to load data 
     load_data = DataLoader(raw_csv_files)
+    dfs = []
     for df in load_data:
-        pass
+        dfs.append(df)
+
+    if load_data.failed_files:
+        for file in load_data.failed_files:
+            logger.warning(f"The following file failed to load: {file}")
+    
+    df[1] = df
+    clean = DataCleaner(df)
+    clean.clean_columns(df)
+    
+    print(df)
+       
 
     end_time = time.time()
-
     print(f"Elapsed: {end_time - start_time:.2f} seconds")
 
 
