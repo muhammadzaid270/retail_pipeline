@@ -46,18 +46,30 @@ def main():
         cleaner.add_df(name, df)
 
     target = list(cleaner.pending_dfs.keys())[0]
+    # cleaner.clean_pending_df(target)
 
     dfs = {}
-    for i, name in enumerate(cleaner.pending_dfs.keys()):
-        cleaner.clean_pending_df(name)
+    for name in cleaner.pending_dfs.keys():
+        cleaner.clean_data(name)
         df = cleaner.get_cleaned_df(name)
         dfs[name] = df
+        with pd.option_context('display.max_rows', None):
+            # print(df['Customer_ID'])
+            # print(df['Product_ID'])
+            print(df.columns.tolist())
+            print(df["Product_Description"])
+            print(df['Customer_Name'])
+
+        break
         
-    for i, (name, df) in enumerate(dfs.items()):
-        print(f"{i+1}: {df.columns.tolist()}")
-        with pd.option_context('display.max_columns', None):
-            print(f"\n{i+1}) DataFrame '{name}', Shape: {df.shape}: \n {df.head()}")
-            
+    
+
+
+    # for i, (name, df) in enumerate(dfs.items()):
+        # print(f"{i+1}: {df.columns.tolist()}")
+        # with pd.option_context('display.max_columns', None):
+        #     print(f"\n{i+1}) DataFrame '{name}', Shape: {df.shape}: \n {df.head()}")
+
     end_time = time.time()
     print(f"Elapsed: {end_time - start_time:.2f} seconds")
 

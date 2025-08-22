@@ -611,3 +611,208 @@
 2025-08-22 14:44:05,277 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
 2025-08-22 14:44:05,283 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
 2025-08-22 14:44:05,288 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 14:46:56,642 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 14:46:56,647 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 14:46:56,651 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 14:46:56,654 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 14:46:56,659 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 14:47:09,071 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 14:47:09,075 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 14:47:09,082 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 14:47:09,086 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 14:47:09,095 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 14:52:20,030 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 14:52:20,035 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 14:52:20,040 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 14:52:20,045 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 14:52:20,050 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 19:55:40,521 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 19:55:40,537 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 19:55:40,550 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 19:55:40,568 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 19:55:40,590 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:05:49,057 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:05:49,061 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:05:49,067 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:05:49,073 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:05:49,077 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:06:18,581 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:06:18,585 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:06:18,592 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:06:18,599 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:06:18,610 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:08:08,318 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:08:08,323 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:08:08,328 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:08:08,332 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:08:08,337 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:09:50,186 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:09:50,190 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:09:50,197 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:09:50,202 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:09:50,212 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:10:09,508 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:10:09,512 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:10:09,521 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:10:09,526 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:10:09,530 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:11:54,196 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:11:54,200 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:11:54,206 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:11:54,211 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:11:54,215 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:12:11,315 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:12:11,321 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:12:11,329 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:12:11,333 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:12:11,337 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:12:26,989 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:12:26,993 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:12:27,000 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:12:27,004 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:12:27,008 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:12:34,346 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:12:34,350 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:12:34,356 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:12:34,364 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:12:34,373 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:12:58,612 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:12:58,616 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:12:58,621 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:12:58,625 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:12:58,628 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:13:20,767 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:13:20,772 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:13:20,778 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:13:20,782 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:13:20,789 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:13:31,865 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:13:31,869 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:13:31,874 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:13:31,880 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:13:31,885 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:14:41,542 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:14:41,547 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:14:41,553 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:14:41,558 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:14:41,563 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:42:14,278 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:42:14,282 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:42:14,289 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:42:14,294 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:42:14,298 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:42:29,540 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:42:29,544 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:42:29,552 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:42:29,556 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:42:29,560 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:42:53,977 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:42:53,981 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:42:53,989 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:42:53,997 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:42:54,003 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:44:05,231 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:44:05,236 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:44:05,240 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:44:05,247 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:44:05,251 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:44:44,550 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:44:44,554 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:44:44,563 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:44:44,569 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:44:44,578 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:44:59,090 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:44:59,094 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:44:59,100 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:44:59,105 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:44:59,110 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:45:11,551 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:45:11,555 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:45:11,561 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:45:11,566 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:45:11,570 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:45:53,892 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:45:53,896 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:45:53,902 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:45:53,906 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:45:53,909 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:46:14,498 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:46:14,503 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:46:14,509 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:46:14,513 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:46:14,516 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:46:44,533 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:46:44,538 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:46:44,548 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:46:44,558 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:46:44,568 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:50:59,637 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:50:59,642 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:50:59,652 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:50:59,656 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:50:59,661 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:51:53,501 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:51:53,508 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:51:53,515 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:51:53,520 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:51:53,526 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:53:32,474 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:53:32,479 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:53:32,486 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:53:32,492 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:53:32,497 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:56:05,119 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:56:05,124 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:56:05,132 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:56:05,136 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:56:05,141 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:56:18,879 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:56:18,886 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:56:18,893 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:56:18,897 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:56:18,902 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:56:47,799 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:56:47,803 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:56:47,810 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:56:47,816 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:56:47,823 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 20:58:28,158 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 20:58:28,162 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 20:58:28,168 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 20:58:28,173 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 20:58:28,181 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 21:04:11,248 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 21:04:11,252 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 21:04:11,262 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 21:04:11,268 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 21:04:11,277 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 21:04:24,239 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 21:04:24,244 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 21:04:24,251 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 21:04:24,257 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 21:04:24,261 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 21:12:50,499 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 21:12:50,506 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 21:12:50,512 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 21:12:50,516 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 21:12:50,522 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 21:13:46,285 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 21:13:46,289 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 21:13:46,294 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 21:13:46,300 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 21:13:46,305 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 21:17:12,783 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 21:17:12,787 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 21:17:12,792 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 21:17:12,796 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 21:17:12,801 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 21:17:30,570 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 21:17:30,574 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 21:17:30,578 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 21:17:30,581 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 21:17:30,584 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-22 21:18:21,460 - INFO - main.py:13 - ------Program Started-----
+2025-08-22 21:18:21,464 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-22 21:18:21,469 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-22 21:18:21,475 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-22 21:18:21,480 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv

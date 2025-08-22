@@ -17,3 +17,4 @@ Phone,string,yes, ph no of Customer
 Shipping Adress,string,yes, Address where order was placed
 Order Priority,string,yes, High/low
 Tax Amount,float,no, tax charged
+notes,string,yes,notes
