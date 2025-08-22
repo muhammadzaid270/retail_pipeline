@@ -1,0 +1,19 @@
+column_names,dtype,optional,description
+
+Date,datetime,no,order date
+Customer ID,string,no, id
+Customer Name,string,no,Name 
+Product ID,string,no,Product id 
+Product Description,string,no, description of product
+Quantity,int,no, units of products (pcs)
+Price,float,no, usd per unit
+Total,float,no, Quantity * Price
+Sales_Rep,string,no, person who made sale
+Region,string,no, region where sale was made 
+Payment Method,string,yes, cash card bank
+Commision,float,no, percent of sale (convert to percentage first)
+Email,string,yes, email of Customer
+Phone,string,yes, ph no of Customer
+Shipping Adress,string,yes, Address where order was placed
+Order Priority,string,yes, High/low
+Tax Amount,float,no, tax charged
