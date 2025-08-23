@@ -50,12 +50,20 @@ def main():
 
     dfs = {}
     for name in cleaner.pending_dfs.keys():
-        cleaner.clean_data(name)
-        df = cleaner.get_cleaned_df(name)
+        print(f"\n=== Processing {name} ===")
+        print(f"Original shape: {cleaner.pending_dfs[name].shape}")
+        print(f"Original columns: {cleaner.pending_dfs[name].columns.tolist()}")
+        
+        df = cleaner.clean_data(name)
         dfs[name] = df
+        
+        print(f"After cleaning shape: {df.shape}")
+        print(f"After cleaning columns: {df.columns.tolist()}")
+        
         with pd.option_context('display.max_columns', None):
             print(df.columns.tolist())
-            print(df.head())
+            print(df.info())
+            # print(df.head())
             # print(f"{df['Quantity']} \n {df['Price']} \n {df['Total']}")
         
     # for i, (name, df) in enumerate(dfs.items()):

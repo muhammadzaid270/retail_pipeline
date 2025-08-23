@@ -956,4 +956,271 @@
 2025-08-23 12:55:43,974 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
 2025-08-23 12:55:43,978 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
 2025-08-23 12:55:43,981 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
-2025-08-23 12:55:43,985 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-23 12:55:43,985 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv2025-08-23 15:49:46,166 - INFO - main.py:13 - ------Program Started-----
+2025-08-23 15:49:46,182 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-23 15:49:46,205 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-23 15:49:46,225 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-23 15:49:46,244 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-23 15:49:46,266 - ERROR - clean_data.py:59 - Fatal error occurred while cleaning string columns: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-08-23 18:36:12,903 - INFO - main.py:13 - ------Program Started-----
+2025-08-23 18:36:12,907 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-23 18:36:12,912 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-23 18:36:12,917 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-23 18:36:12,921 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-23 18:36:12,995 - INFO - clean_data.py:129 - Rows before cleaning: 4
+2025-08-23 18:36:12,995 - INFO - clean_data.py:130 - Rows after cleaning: 4
+2025-08-23 18:36:12,996 - INFO - clean_data.py:131 - Rows actually dropped: 0
+2025-08-23 18:36:32,843 - INFO - main.py:13 - ------Program Started-----
+2025-08-23 18:36:32,847 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-23 18:36:32,855 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-23 18:36:32,860 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-23 18:36:32,865 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-23 18:36:32,942 - INFO - clean_data.py:129 - Rows before cleaning: 4
+2025-08-23 18:36:32,942 - INFO - clean_data.py:130 - Rows after cleaning: 4
+2025-08-23 18:36:32,943 - INFO - clean_data.py:131 - Rows actually dropped: 0
+2025-08-23 18:36:33,049 - INFO - clean_data.py:129 - Rows before cleaning: 63
+2025-08-23 18:36:33,050 - INFO - clean_data.py:130 - Rows after cleaning: 54
+2025-08-23 18:36:33,050 - INFO - clean_data.py:131 - Rows actually dropped: 9
+2025-08-23 18:36:33,114 - INFO - clean_data.py:129 - Rows before cleaning: 21
+2025-08-23 18:36:33,115 - INFO - clean_data.py:130 - Rows after cleaning: 19
+2025-08-23 18:36:33,115 - INFO - clean_data.py:131 - Rows actually dropped: 2
+2025-08-23 18:42:37,896 - INFO - main.py:13 - ------Program Started-----
+2025-08-23 18:42:37,903 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-23 18:42:37,915 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-23 18:42:37,927 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-23 18:42:37,933 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-23 18:42:38,012 - INFO - clean_data.py:129 - Rows before cleaning: 4
+2025-08-23 18:42:38,013 - INFO - clean_data.py:130 - Rows after cleaning: 4
+2025-08-23 18:42:38,013 - INFO - clean_data.py:131 - Rows actually dropped: 0
+2025-08-23 18:42:38,114 - INFO - clean_data.py:129 - Rows before cleaning: 63
+2025-08-23 18:42:38,115 - INFO - clean_data.py:130 - Rows after cleaning: 54
+2025-08-23 18:42:38,115 - INFO - clean_data.py:131 - Rows actually dropped: 9
+2025-08-23 18:42:38,211 - INFO - clean_data.py:129 - Rows before cleaning: 21
+2025-08-23 18:42:38,212 - INFO - clean_data.py:130 - Rows after cleaning: 19
+2025-08-23 18:42:38,212 - INFO - clean_data.py:131 - Rows actually dropped: 2
+2025-08-23 18:43:10,617 - INFO - main.py:13 - ------Program Started-----
+2025-08-23 18:43:10,623 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-23 18:43:10,635 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-23 18:43:10,644 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-23 18:43:10,657 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-23 18:43:10,784 - INFO - clean_data.py:129 - Rows before cleaning: 4
+2025-08-23 18:43:10,817 - INFO - clean_data.py:130 - Rows after cleaning: 4
+2025-08-23 18:43:10,848 - INFO - clean_data.py:131 - Rows actually dropped: 0
+2025-08-23 18:43:11,009 - INFO - clean_data.py:129 - Rows before cleaning: 63
+2025-08-23 18:43:11,009 - INFO - clean_data.py:130 - Rows after cleaning: 54
+2025-08-23 18:43:11,011 - INFO - clean_data.py:131 - Rows actually dropped: 9
+2025-08-23 18:43:11,081 - INFO - clean_data.py:129 - Rows before cleaning: 21
+2025-08-23 18:43:11,088 - INFO - clean_data.py:130 - Rows after cleaning: 19
+2025-08-23 18:43:11,089 - INFO - clean_data.py:131 - Rows actually dropped: 2
+2025-08-23 18:43:28,487 - INFO - main.py:13 - ------Program Started-----
+2025-08-23 18:43:28,494 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-23 18:43:28,503 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-23 18:43:28,508 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-23 18:43:28,517 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-23 18:43:28,607 - INFO - clean_data.py:129 - Rows before cleaning: 4
+2025-08-23 18:43:28,607 - INFO - clean_data.py:130 - Rows after cleaning: 4
+2025-08-23 18:43:28,608 - INFO - clean_data.py:131 - Rows actually dropped: 0
+2025-08-23 18:43:28,727 - INFO - clean_data.py:129 - Rows before cleaning: 63
+2025-08-23 18:43:28,728 - INFO - clean_data.py:130 - Rows after cleaning: 54
+2025-08-23 18:43:28,728 - INFO - clean_data.py:131 - Rows actually dropped: 9
+2025-08-23 18:43:28,840 - INFO - clean_data.py:129 - Rows before cleaning: 21
+2025-08-23 18:43:28,841 - INFO - clean_data.py:130 - Rows after cleaning: 19
+2025-08-23 18:43:28,841 - INFO - clean_data.py:131 - Rows actually dropped: 2
+2025-08-23 18:45:52,690 - INFO - main.py:13 - ------Program Started-----
+2025-08-23 18:45:52,694 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-23 18:45:52,702 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-23 18:45:52,706 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-23 18:45:52,710 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-23 18:45:52,768 - INFO - clean_data.py:130 - Rows before cleaning: 4
+2025-08-23 18:45:52,768 - INFO - clean_data.py:131 - Rows after cleaning: 4
+2025-08-23 18:45:52,769 - INFO - clean_data.py:132 - Rows actually dropped: 0
+2025-08-23 18:45:52,770 - ERROR - clean_data.py:146 - Error dropping columns: "['Email', 'Phone', 'Shipping_Address', 'Order_Priority'] not found in axis"
+2025-08-23 18:46:32,743 - INFO - main.py:13 - ------Program Started-----
+2025-08-23 18:46:32,747 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-23 18:46:32,754 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-23 18:46:32,759 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-23 18:46:32,768 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-23 18:46:32,831 - INFO - clean_data.py:130 - Rows before cleaning: 4
+2025-08-23 18:46:32,831 - INFO - clean_data.py:131 - Rows after cleaning: 4
+2025-08-23 18:46:32,832 - INFO - clean_data.py:132 - Rows actually dropped: 0
+2025-08-23 18:46:32,834 - ERROR - clean_data.py:146 - Error dropping columns: "['Email', 'Phone', 'Shipping_Address', 'Order_Priority'] not found in axis"
+2025-08-23 18:58:30,949 - INFO - main.py:13 - ------Program Started-----
+2025-08-23 18:58:30,952 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-23 18:58:30,956 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-23 18:58:30,960 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-23 18:58:30,964 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-23 18:58:31,003 - INFO - clean_data.py:130 - Rows before cleaning: 4
+2025-08-23 18:58:31,003 - INFO - clean_data.py:131 - Rows after cleaning: 4
+2025-08-23 18:58:31,004 - INFO - clean_data.py:132 - Rows actually dropped: 0
+2025-08-23 18:58:31,082 - INFO - clean_data.py:130 - Rows before cleaning: 63
+2025-08-23 18:58:31,083 - INFO - clean_data.py:131 - Rows after cleaning: 54
+2025-08-23 18:58:31,083 - INFO - clean_data.py:132 - Rows actually dropped: 9
+2025-08-23 18:58:31,145 - INFO - clean_data.py:130 - Rows before cleaning: 21
+2025-08-23 18:58:31,146 - INFO - clean_data.py:131 - Rows after cleaning: 19
+2025-08-23 18:58:31,146 - INFO - clean_data.py:132 - Rows actually dropped: 2
+2025-08-23 19:00:18,439 - INFO - main.py:13 - ------Program Started-----
+2025-08-23 19:00:18,443 - ERROR - load_files.py:52 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-23 19:00:18,447 - INFO - load_files.py:56 - Loaded regional_sales.csv on retry
+2025-08-23 19:00:18,450 - INFO - load_files.py:43 - Loaded file: sales_backup.csv
+2025-08-23 19:00:18,453 - INFO - load_files.py:43 - Loaded file: sales_data_Q1.csv
+2025-08-23 19:00:18,487 - INFO - clean_data.py:130 - Rows before cleaning: 4
+2025-08-23 19:00:18,488 - INFO - clean_data.py:131 - Rows after cleaning: 4
+2025-08-23 19:00:18,489 - INFO - clean_data.py:132 - Rows actually dropped: 0
+2025-08-23 19:00:18,564 - INFO - clean_data.py:130 - Rows before cleaning: 63
+2025-08-23 19:00:18,565 - INFO - clean_data.py:131 - Rows after cleaning: 54
+2025-08-23 19:00:18,566 - INFO - clean_data.py:132 - Rows actually dropped: 9
+2025-08-23 19:00:18,613 - INFO - clean_data.py:130 - Rows before cleaning: 21
+2025-08-23 19:00:18,613 - INFO - clean_data.py:131 - Rows after cleaning: 19
+2025-08-23 19:00:18,614 - INFO - clean_data.py:132 - Rows actually dropped: 2
+2025-08-23 19:31:48,804 - INFO - main.py:13 - ------Program Started-----
+2025-08-23 19:31:48,808 - ERROR - load_files.py:53 - Parsing error in file, attempting retry: regional_sales.csv
+2025-08-23 19:31:48,809 - ERROR - load_files.py:63 - Retry failed for regional_sales.csv: Error tokenizing data. C error: Expected 1 fields in line 6, saw 2
+
+2025-08-23 19:31:48,813 - INFO - load_files.py:44 - Loaded file: sales_backup.csv
+2025-08-23 19:31:48,817 - INFO - load_files.py:44 - Loaded file: sales_data_Q1.csv
+2025-08-23 19:31:48,818 - WARNING - main.py:41 - The following file failed to load: C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv
+2025-08-23 19:31:48,874 - INFO - clean_data.py:130 - Rows before cleaning: 63
+2025-08-23 19:31:48,875 - INFO - clean_data.py:131 - Rows after cleaning: 54
+2025-08-23 19:31:48,875 - INFO - clean_data.py:132 - Rows actually dropped: 9
+2025-08-23 19:31:48,938 - INFO - clean_data.py:130 - Rows before cleaning: 21
+2025-08-23 19:31:48,939 - INFO - clean_data.py:131 - Rows after cleaning: 19
+2025-08-23 19:31:48,939 - INFO - clean_data.py:132 - Rows actually dropped: 2
+2025-08-23 19:33:07,232 - INFO - main.py:13 - ------Program Started-----
+2025-08-23 19:33:07,237 - ERROR - load_files.py:53 - Parsing error in file, attempting retry: regional_sales.csv
+2025-08-23 19:33:07,238 - ERROR - load_files.py:63 - Retry failed for regional_sales.csv: Error tokenizing data. C error: Expected 1 fields in line 6, saw 2
+
+2025-08-23 19:33:07,243 - INFO - load_files.py:44 - Loaded file: sales_backup.csv
+2025-08-23 19:33:07,248 - INFO - load_files.py:44 - Loaded file: sales_data_Q1.csv
+2025-08-23 19:33:07,249 - WARNING - main.py:41 - The following file failed to load: C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv
+2025-08-23 19:33:07,310 - INFO - clean_data.py:130 - Rows before cleaning: 63
+2025-08-23 19:33:07,311 - INFO - clean_data.py:131 - Rows after cleaning: 54
+2025-08-23 19:33:07,312 - INFO - clean_data.py:132 - Rows actually dropped: 9
+2025-08-23 19:33:07,401 - INFO - clean_data.py:130 - Rows before cleaning: 21
+2025-08-23 19:33:07,402 - INFO - clean_data.py:131 - Rows after cleaning: 19
+2025-08-23 19:33:07,402 - INFO - clean_data.py:132 - Rows actually dropped: 2
+2025-08-23 19:33:57,965 - INFO - main.py:13 - ------Program Started-----
+2025-08-23 19:33:57,968 - ERROR - load_files.py:53 - Parsing error in file, attempting retry: regional_sales.csv
+2025-08-23 19:33:57,978 - INFO - load_files.py:60 - Loaded regional_sales.csv on retry
+2025-08-23 19:33:57,981 - INFO - load_files.py:44 - Loaded file: sales_backup.csv
+2025-08-23 19:33:57,986 - INFO - load_files.py:44 - Loaded file: sales_data_Q1.csv
+2025-08-23 19:33:58,032 - INFO - clean_data.py:130 - Rows before cleaning: 4
+2025-08-23 19:33:58,032 - INFO - clean_data.py:131 - Rows after cleaning: 4
+2025-08-23 19:33:58,032 - INFO - clean_data.py:132 - Rows actually dropped: 0
+2025-08-23 19:33:58,100 - INFO - clean_data.py:130 - Rows before cleaning: 63
+2025-08-23 19:33:58,101 - INFO - clean_data.py:131 - Rows after cleaning: 54
+2025-08-23 19:33:58,101 - INFO - clean_data.py:132 - Rows actually dropped: 9
+2025-08-23 19:33:58,152 - INFO - clean_data.py:130 - Rows before cleaning: 21
+2025-08-23 19:33:58,152 - INFO - clean_data.py:131 - Rows after cleaning: 19
+2025-08-23 19:33:58,153 - INFO - clean_data.py:132 - Rows actually dropped: 2
+2025-08-23 19:35:09,148 - INFO - main.py:13 - ------Program Started-----
+2025-08-23 19:35:09,152 - ERROR - load_files.py:64 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-23 19:35:09,156 - INFO - load_files.py:68 - Loaded regional_sales.csv on retry
+2025-08-23 19:35:09,158 - INFO - load_files.py:55 - Loaded file: sales_backup.csv
+2025-08-23 19:35:09,164 - INFO - load_files.py:55 - Loaded file: sales_data_Q1.csv
+2025-08-23 19:35:09,211 - INFO - clean_data.py:130 - Rows before cleaning: 4
+2025-08-23 19:35:09,212 - INFO - clean_data.py:131 - Rows after cleaning: 4
+2025-08-23 19:35:09,213 - INFO - clean_data.py:132 - Rows actually dropped: 0
+2025-08-23 19:35:09,270 - INFO - clean_data.py:130 - Rows before cleaning: 63
+2025-08-23 19:35:09,271 - INFO - clean_data.py:131 - Rows after cleaning: 54
+2025-08-23 19:35:09,271 - INFO - clean_data.py:132 - Rows actually dropped: 9
+2025-08-23 19:35:09,327 - INFO - clean_data.py:130 - Rows before cleaning: 21
+2025-08-23 19:35:09,327 - INFO - clean_data.py:131 - Rows after cleaning: 19
+2025-08-23 19:35:09,328 - INFO - clean_data.py:132 - Rows actually dropped: 2
+2025-08-23 19:36:12,334 - INFO - main.py:13 - ------Program Started-----
+2025-08-23 19:36:12,337 - ERROR - load_files.py:64 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-23 19:36:12,342 - INFO - load_files.py:68 - Loaded regional_sales.csv on retry
+2025-08-23 19:36:12,345 - INFO - load_files.py:55 - Loaded file: sales_backup.csv
+2025-08-23 19:36:12,349 - INFO - load_files.py:55 - Loaded file: sales_data_Q1.csv
+2025-08-23 19:36:12,397 - INFO - clean_data.py:129 - Rows before cleaning: 4
+2025-08-23 19:36:12,397 - INFO - clean_data.py:130 - Rows after cleaning: 4
+2025-08-23 19:36:12,397 - INFO - clean_data.py:131 - Rows actually dropped: 0
+2025-08-23 19:36:12,452 - INFO - clean_data.py:129 - Rows before cleaning: 63
+2025-08-23 19:36:12,453 - INFO - clean_data.py:130 - Rows after cleaning: 54
+2025-08-23 19:36:12,453 - INFO - clean_data.py:131 - Rows actually dropped: 9
+2025-08-23 19:36:12,510 - INFO - clean_data.py:129 - Rows before cleaning: 21
+2025-08-23 19:36:12,510 - INFO - clean_data.py:130 - Rows after cleaning: 19
+2025-08-23 19:36:12,510 - INFO - clean_data.py:131 - Rows actually dropped: 2
+2025-08-23 19:49:33,867 - INFO - main.py:13 - ------Program Started-----
+2025-08-23 19:49:33,871 - ERROR - load_files.py:64 - Parsing error in file, attempting retry with `on_bad_lines='skip'` for CSV: regional_sales.csv
+2025-08-23 19:49:33,885 - INFO - load_files.py:68 - Loaded regional_sales.csv on retry
+2025-08-23 19:49:33,889 - INFO - load_files.py:55 - Loaded file: sales_backup.csv
+2025-08-23 19:49:33,903 - INFO - load_files.py:55 - Loaded file: sales_data_Q1.csv
+2025-08-23 19:49:34,040 - INFO - clean_data.py:130 - Rows before cleaning: 4
+2025-08-23 19:49:34,040 - INFO - clean_data.py:131 - Rows after cleaning: 4
+2025-08-23 19:49:34,040 - INFO - clean_data.py:132 - Rows actually dropped: 0
+2025-08-23 19:49:34,230 - INFO - clean_data.py:130 - Rows before cleaning: 63
+2025-08-23 19:49:34,234 - INFO - clean_data.py:131 - Rows after cleaning: 54
+2025-08-23 19:49:34,235 - INFO - clean_data.py:132 - Rows actually dropped: 9
+2025-08-23 19:49:34,630 - INFO - clean_data.py:130 - Rows before cleaning: 21
+2025-08-23 19:49:34,635 - INFO - clean_data.py:131 - Rows after cleaning: 19
+2025-08-23 19:49:34,636 - INFO - clean_data.py:132 - Rows actually dropped: 2
+2025-08-23 20:13:44,953 - INFO - main.py:13 - ------Program Started-----
+2025-08-23 20:13:45,003 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-23 20:13:45,003 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-23 20:13:45,023 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-23 20:13:45,024 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-23 20:13:45,054 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-23 20:13:45,054 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-23 20:13:45,140 - INFO - clean_data.py:130 - Rows before cleaning: 4
+2025-08-23 20:13:45,140 - INFO - clean_data.py:131 - Rows after cleaning: 4
+2025-08-23 20:13:45,140 - INFO - clean_data.py:132 - Rows actually dropped: 0
+2025-08-23 20:13:45,288 - INFO - clean_data.py:130 - Rows before cleaning: 63
+2025-08-23 20:13:45,288 - INFO - clean_data.py:131 - Rows after cleaning: 54
+2025-08-23 20:13:45,289 - INFO - clean_data.py:132 - Rows actually dropped: 9
+2025-08-23 20:13:45,409 - INFO - clean_data.py:130 - Rows before cleaning: 21
+2025-08-23 20:13:45,413 - INFO - clean_data.py:131 - Rows after cleaning: 19
+2025-08-23 20:13:45,415 - INFO - clean_data.py:132 - Rows actually dropped: 2
+2025-08-23 20:14:09,516 - INFO - main.py:13 - ------Program Started-----
+2025-08-23 20:14:09,546 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-23 20:14:09,547 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-23 20:14:09,575 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-23 20:14:09,576 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-23 20:14:09,597 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-23 20:14:09,597 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-23 20:14:09,681 - INFO - clean_data.py:130 - Rows before cleaning: 4
+2025-08-23 20:14:09,682 - INFO - clean_data.py:131 - Rows after cleaning: 4
+2025-08-23 20:14:09,682 - INFO - clean_data.py:132 - Rows actually dropped: 0
+2025-08-23 20:14:09,840 - INFO - clean_data.py:130 - Rows before cleaning: 63
+2025-08-23 20:14:09,841 - INFO - clean_data.py:131 - Rows after cleaning: 54
+2025-08-23 20:14:09,842 - INFO - clean_data.py:132 - Rows actually dropped: 9
+2025-08-23 20:14:09,971 - INFO - clean_data.py:130 - Rows before cleaning: 21
+2025-08-23 20:14:09,973 - INFO - clean_data.py:131 - Rows after cleaning: 19
+2025-08-23 20:14:09,973 - INFO - clean_data.py:132 - Rows actually dropped: 2
+2025-08-23 20:14:43,431 - INFO - main.py:13 - ------Program Started-----
+2025-08-23 20:14:43,456 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-23 20:14:43,457 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-23 20:14:43,480 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-23 20:14:43,480 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-23 20:14:43,497 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-23 20:14:43,498 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-23 20:14:43,560 - INFO - clean_data.py:103 - Date cleaning: 16/73 dates successfully parsed
+2025-08-23 20:14:43,600 - INFO - clean_data.py:153 - Rows before cleaning: 73
+2025-08-23 20:14:43,600 - INFO - clean_data.py:154 - Rows after cleaning: 64
+2025-08-23 20:14:43,601 - INFO - clean_data.py:155 - Rows actually dropped: 9
+2025-08-23 20:14:43,681 - INFO - clean_data.py:103 - Date cleaning: 63/83 dates successfully parsed
+2025-08-23 20:14:43,715 - INFO - clean_data.py:153 - Rows before cleaning: 83
+2025-08-23 20:14:43,715 - INFO - clean_data.py:154 - Rows after cleaning: 69
+2025-08-23 20:14:43,715 - INFO - clean_data.py:155 - Rows actually dropped: 14
+2025-08-23 20:14:43,800 - INFO - clean_data.py:103 - Date cleaning: 44/73 dates successfully parsed
+2025-08-23 20:14:43,829 - INFO - clean_data.py:153 - Rows before cleaning: 73
+2025-08-23 20:14:43,830 - INFO - clean_data.py:154 - Rows after cleaning: 69
+2025-08-23 20:14:43,830 - INFO - clean_data.py:155 - Rows actually dropped: 4
+2025-08-23 20:16:49,897 - INFO - main.py:13 - ------Program Started-----
+2025-08-23 20:16:49,915 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-23 20:16:49,915 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-23 20:16:49,931 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-23 20:16:49,932 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-23 20:16:49,963 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-23 20:16:49,967 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-23 20:16:50,067 - INFO - clean_data.py:103 - Date cleaning: 16/73 dates successfully parsed
+2025-08-23 20:16:50,178 - INFO - clean_data.py:153 - Rows before cleaning: 73
+2025-08-23 20:16:50,179 - INFO - clean_data.py:154 - Rows after cleaning: 64
+2025-08-23 20:16:50,180 - INFO - clean_data.py:155 - Rows actually dropped: 9
+2025-08-23 20:16:50,409 - INFO - clean_data.py:103 - Date cleaning: 63/83 dates successfully parsed
+2025-08-23 20:16:50,490 - INFO - clean_data.py:153 - Rows before cleaning: 83
+2025-08-23 20:16:50,512 - INFO - clean_data.py:154 - Rows after cleaning: 69
+2025-08-23 20:16:50,517 - INFO - clean_data.py:155 - Rows actually dropped: 14
+2025-08-23 20:16:50,693 - INFO - clean_data.py:103 - Date cleaning: 44/73 dates successfully parsed
+2025-08-23 20:16:50,714 - INFO - clean_data.py:153 - Rows before cleaning: 73
+2025-08-23 20:16:50,714 - INFO - clean_data.py:154 - Rows after cleaning: 69
+2025-08-23 20:16:50,715 - INFO - clean_data.py:155 - Rows actually dropped: 4
