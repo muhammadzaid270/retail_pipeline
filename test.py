@@ -1,4 +1,16 @@
-from fuzzywuzzy import fuzz, process
+import numpy as np
 
-x = fuzz.ratio("this is a test", "this is a test!")
-print(x)
+quantity, price, total = np.nan, 10, 100
+quantity = total / price
+price = total / quantity
+total = price * quantity
+print(quantity, price, total)
+
+
+
+
+
+
+
+
+

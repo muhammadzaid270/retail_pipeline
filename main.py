@@ -53,18 +53,11 @@ def main():
         cleaner.clean_data(name)
         df = cleaner.get_cleaned_df(name)
         dfs[name] = df
-        with pd.option_context('display.max_rows', None):
-            # print(df['Customer_ID'])
-            # print(df['Product_ID'])
+        with pd.option_context('display.max_columns', None):
             print(df.columns.tolist())
-            print(df["Product_Description"])
-            print(df['Customer_Name'])
-
-        break
+            print(df.head())
+            # print(f"{df['Quantity']} \n {df['Price']} \n {df['Total']}")
         
-    
-
-
     # for i, (name, df) in enumerate(dfs.items()):
         # print(f"{i+1}: {df.columns.tolist()}")
         # with pd.option_context('display.max_columns', None):
