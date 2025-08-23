@@ -1,4 +1,4 @@
-from src import config
+from config import config
 from src.check_files import get_csv_files, get_excel_files, get_json_files
 from src.load_files import DataLoader
 from src.clean_data import DataCleaner

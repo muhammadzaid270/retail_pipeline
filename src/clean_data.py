@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from src.schema_mapping import mapping
+from config.schema_mapping import mapping
 import logging
 
 logger = logging.getLogger(__name__)
