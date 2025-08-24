@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 from config.schema_mapping import mapping
 import logging
+from datetime import datetime
 
 logger = logging.getLogger(__name__)
 
@@ -29,8 +30,9 @@ class DataCleaner:
                 .pipe(self._aggregate_data)
                 .pipe(self._drop_columns)
             )
+            per_customer_rev, per_product_rev = self._group_by(df)
             self.processed_dfs[name] = df
-            return df
+            return df, per_customer_rev, per_product_rev
 
            
     # Clean column names
@@ -95,11 +97,13 @@ class DataCleaner:
             
             # Convert to datetime with coerce to handle invalid dates
             df[col] = pd.to_datetime(df[col], errors='coerce')
+            # df.dropna(subset=[col], inplace= True)
             
             # Log how many dates were successfully parsed
             valid_dates = df[col].notna().sum()
             total_rows = len(df)
-            logger.info(f"Date cleaning: {valid_dates}/{total_rows} dates successfully parsed")
+            # logger.info(f"Date cleaning: {valid_dates}/{total_rows} dates successfully parsed")
+
             
             return df
         except Exception as e:
@@ -135,12 +139,12 @@ class DataCleaner:
             df = (df
                 .dropna(how='all')
                 .dropna(subset=['Total'])
-                .dropna(subset=['Price', 'Quantity'], how='all')
+                .dropna(subset=['Price', 'Quantity'], how='all').reset_index(drop=True)
                 )
 
             # Drop if any two rows are zeros
             drop_zeros = (df[['Total', 'Price', 'Quantity']] == 0).sum(axis=1) >= 2
-            df = df[~drop_zeros]
+            df = df[~drop_zeros].reset_index(drop=True)
 
             rows_after = len(df)
             dropped_rows = rows_before - rows_after
@@ -152,6 +156,12 @@ class DataCleaner:
         except Exception as e:
             logger.error(f"Error aggregating data: {e}")
             raise     
+
+    def _group_by(self, df):
+        per_customer_rev = df.groupby('Customer_Name')[['Quantity', 'Total', 'Net_Total']].sum().reset_index()
+        per_product_rev  = df.groupby('Product_ID')[['Quantity', 'Total', 'Net_Total']].sum().reset_index()
+        return per_customer_rev, per_product_rev
+
 
     # Drop unnecessary columns
     def _drop_columns(self, df, columns = None):

@@ -1262,3 +1262,383 @@
 2025-08-24 10:27:54,759 - INFO - clean_data.py:153 - Rows before cleaning: 73
 2025-08-24 10:27:54,759 - INFO - clean_data.py:154 - Rows after cleaning: 69
 2025-08-24 10:27:54,760 - INFO - clean_data.py:155 - Rows actually dropped: 4
+2025-08-24 17:35:50,112 - INFO - main.py:13 - ------Program Started-----
+2025-08-24 17:35:50,173 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-24 17:35:50,174 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-24 17:35:50,217 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 17:35:50,218 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-24 17:35:50,273 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 17:35:50,279 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-24 17:35:50,513 - INFO - clean_data.py:149 - Rows before cleaning: 16
+2025-08-24 17:35:50,514 - INFO - clean_data.py:150 - Rows after cleaning: 12
+2025-08-24 17:35:50,515 - INFO - clean_data.py:151 - Rows actually dropped: 4
+2025-08-24 17:35:50,772 - INFO - clean_data.py:149 - Rows before cleaning: 63
+2025-08-24 17:35:50,773 - INFO - clean_data.py:150 - Rows after cleaning: 54
+2025-08-24 17:35:50,774 - INFO - clean_data.py:151 - Rows actually dropped: 9
+2025-08-24 17:35:50,941 - INFO - clean_data.py:149 - Rows before cleaning: 44
+2025-08-24 17:35:50,942 - INFO - clean_data.py:150 - Rows after cleaning: 41
+2025-08-24 17:35:50,942 - INFO - clean_data.py:151 - Rows actually dropped: 3
+2025-08-24 17:37:07,735 - INFO - main.py:13 - ------Program Started-----
+2025-08-24 17:37:07,763 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-24 17:37:07,764 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-24 17:37:07,804 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 17:37:07,806 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-24 17:37:07,843 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 17:37:07,844 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-24 17:37:07,962 - INFO - clean_data.py:149 - Rows before cleaning: 73
+2025-08-24 17:37:07,964 - INFO - clean_data.py:150 - Rows after cleaning: 64
+2025-08-24 17:37:07,965 - INFO - clean_data.py:151 - Rows actually dropped: 9
+2025-08-24 17:37:08,073 - INFO - clean_data.py:149 - Rows before cleaning: 83
+2025-08-24 17:37:08,074 - INFO - clean_data.py:150 - Rows after cleaning: 69
+2025-08-24 17:37:08,075 - INFO - clean_data.py:151 - Rows actually dropped: 14
+2025-08-24 17:37:08,242 - INFO - clean_data.py:149 - Rows before cleaning: 73
+2025-08-24 17:37:08,243 - INFO - clean_data.py:150 - Rows after cleaning: 69
+2025-08-24 17:37:08,244 - INFO - clean_data.py:151 - Rows actually dropped: 4
+2025-08-24 17:37:34,407 - INFO - main.py:13 - ------Program Started-----
+2025-08-24 17:37:34,441 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-24 17:37:34,442 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-24 17:37:34,461 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 17:37:34,462 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-24 17:37:34,486 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 17:37:34,488 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-24 17:37:34,573 - INFO - clean_data.py:149 - Rows before cleaning: 73
+2025-08-24 17:37:34,574 - INFO - clean_data.py:150 - Rows after cleaning: 64
+2025-08-24 17:37:34,575 - INFO - clean_data.py:151 - Rows actually dropped: 9
+2025-08-24 17:37:49,695 - INFO - main.py:13 - ------Program Started-----
+2025-08-24 17:37:49,711 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-24 17:37:49,712 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-24 17:37:49,726 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 17:37:49,727 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-24 17:37:49,742 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 17:37:49,742 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-24 17:37:49,813 - INFO - clean_data.py:149 - Rows before cleaning: 73
+2025-08-24 17:37:49,815 - INFO - clean_data.py:150 - Rows after cleaning: 64
+2025-08-24 17:37:49,816 - INFO - clean_data.py:151 - Rows actually dropped: 9
+2025-08-24 17:37:49,905 - INFO - clean_data.py:149 - Rows before cleaning: 83
+2025-08-24 17:37:49,905 - INFO - clean_data.py:150 - Rows after cleaning: 69
+2025-08-24 17:37:49,906 - INFO - clean_data.py:151 - Rows actually dropped: 14
+2025-08-24 17:37:49,997 - INFO - clean_data.py:149 - Rows before cleaning: 73
+2025-08-24 17:37:49,998 - INFO - clean_data.py:150 - Rows after cleaning: 69
+2025-08-24 17:37:49,999 - INFO - clean_data.py:151 - Rows actually dropped: 4
+2025-08-24 17:53:20,013 - INFO - main.py:13 - ------Program Started-----
+2025-08-24 17:53:20,049 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-24 17:53:20,050 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-24 17:53:20,080 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 17:53:20,081 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-24 17:53:20,136 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 17:53:20,138 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-24 17:53:20,257 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 17:53:20,258 - INFO - clean_data.py:152 - Rows after cleaning: 64
+2025-08-24 17:53:20,260 - INFO - clean_data.py:153 - Rows actually dropped: 9
+2025-08-24 17:53:55,184 - INFO - main.py:13 - ------Program Started-----
+2025-08-24 17:53:55,203 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-24 17:53:55,229 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-24 17:53:55,274 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 17:53:55,288 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-24 17:53:55,355 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 17:53:55,363 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-24 17:53:55,482 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 17:53:55,492 - INFO - clean_data.py:152 - Rows after cleaning: 64
+2025-08-24 17:53:55,520 - INFO - clean_data.py:153 - Rows actually dropped: 9
+2025-08-24 17:53:55,896 - INFO - clean_data.py:151 - Rows before cleaning: 83
+2025-08-24 17:53:55,897 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 17:53:55,899 - INFO - clean_data.py:153 - Rows actually dropped: 14
+2025-08-24 17:53:56,019 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 17:53:56,020 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 17:53:56,021 - INFO - clean_data.py:153 - Rows actually dropped: 4
+2025-08-24 17:54:50,645 - INFO - main.py:13 - ------Program Started-----
+2025-08-24 17:54:50,680 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-24 17:54:50,681 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-24 17:54:50,717 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 17:54:50,718 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-24 17:54:50,753 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 17:54:50,753 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-24 17:54:50,891 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 17:54:50,893 - INFO - clean_data.py:152 - Rows after cleaning: 64
+2025-08-24 17:54:50,894 - INFO - clean_data.py:153 - Rows actually dropped: 9
+2025-08-24 17:54:51,142 - INFO - clean_data.py:151 - Rows before cleaning: 83
+2025-08-24 17:54:51,143 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 17:54:51,145 - INFO - clean_data.py:153 - Rows actually dropped: 14
+2025-08-24 17:54:51,387 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 17:54:51,388 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 17:54:51,389 - INFO - clean_data.py:153 - Rows actually dropped: 4
+2025-08-24 17:55:27,716 - INFO - main.py:13 - ------Program Started-----
+2025-08-24 17:55:27,748 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-24 17:55:27,749 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-24 17:55:27,783 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 17:55:27,785 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-24 17:55:27,838 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 17:55:27,844 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-24 17:55:28,018 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 17:55:28,019 - INFO - clean_data.py:152 - Rows after cleaning: 64
+2025-08-24 17:55:28,021 - INFO - clean_data.py:153 - Rows actually dropped: 9
+2025-08-24 17:55:28,294 - INFO - clean_data.py:151 - Rows before cleaning: 83
+2025-08-24 17:55:28,295 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 17:55:28,297 - INFO - clean_data.py:153 - Rows actually dropped: 14
+2025-08-24 17:55:28,539 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 17:55:28,540 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 17:55:28,541 - INFO - clean_data.py:153 - Rows actually dropped: 4
+2025-08-24 17:57:59,422 - INFO - main.py:13 - ------Program Started-----
+2025-08-24 17:57:59,453 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-24 17:57:59,454 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-24 17:57:59,500 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 17:57:59,502 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-24 17:57:59,535 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 17:57:59,537 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-24 17:57:59,619 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 17:57:59,620 - INFO - clean_data.py:152 - Rows after cleaning: 64
+2025-08-24 17:57:59,620 - INFO - clean_data.py:153 - Rows actually dropped: 9
+2025-08-24 17:58:12,988 - INFO - main.py:13 - ------Program Started-----
+2025-08-24 17:58:13,004 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-24 17:58:13,006 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-24 17:58:13,024 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 17:58:13,026 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-24 17:58:13,049 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 17:58:13,050 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-24 17:58:13,137 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 17:58:13,138 - INFO - clean_data.py:152 - Rows after cleaning: 64
+2025-08-24 17:58:13,138 - INFO - clean_data.py:153 - Rows actually dropped: 9
+2025-08-24 17:58:28,628 - INFO - main.py:13 - ------Program Started-----
+2025-08-24 17:58:28,685 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-24 17:58:28,688 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-24 17:58:28,710 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 17:58:28,711 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-24 17:58:28,731 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 17:58:28,731 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-24 17:58:28,805 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 17:58:28,806 - INFO - clean_data.py:152 - Rows after cleaning: 64
+2025-08-24 17:58:28,806 - INFO - clean_data.py:153 - Rows actually dropped: 9
+2025-08-24 17:58:29,113 - INFO - clean_data.py:151 - Rows before cleaning: 83
+2025-08-24 17:58:29,114 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 17:58:29,115 - INFO - clean_data.py:153 - Rows actually dropped: 14
+2025-08-24 17:58:29,458 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 17:58:29,459 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 17:58:29,460 - INFO - clean_data.py:153 - Rows actually dropped: 4
+2025-08-24 18:00:06,215 - INFO - main.py:13 - ------Program Started-----
+2025-08-24 18:00:06,247 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-24 18:00:06,249 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-24 18:00:06,268 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:00:06,269 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-24 18:00:06,289 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:00:06,290 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-24 18:00:06,368 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 18:00:06,369 - INFO - clean_data.py:152 - Rows after cleaning: 64
+2025-08-24 18:00:06,369 - INFO - clean_data.py:153 - Rows actually dropped: 9
+2025-08-24 18:00:06,520 - INFO - clean_data.py:151 - Rows before cleaning: 83
+2025-08-24 18:00:06,522 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 18:00:06,522 - INFO - clean_data.py:153 - Rows actually dropped: 14
+2025-08-24 18:00:06,709 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 18:00:06,712 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 18:00:06,713 - INFO - clean_data.py:153 - Rows actually dropped: 4
+2025-08-24 18:07:56,987 - INFO - main.py:13 - ------Program Started-----
+2025-08-24 18:07:57,047 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-24 18:07:57,047 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-24 18:07:57,116 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:07:57,117 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-24 18:07:57,169 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:07:57,200 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-24 18:07:57,358 - INFO - clean_data.py:124 - Initial rows: 73
+2025-08-24 18:07:57,448 - INFO - clean_data.py:141 - After calculations, before filtering: 73 rows
+2025-08-24 18:07:57,543 - INFO - clean_data.py:145 - After dropna(how='all'): 73 rows
+2025-08-24 18:07:57,570 - INFO - clean_data.py:148 - After dropna(subset=['Total']): 71 rows
+2025-08-24 18:07:57,618 - INFO - clean_data.py:151 - After dropna(subset=['Price', 'Quantity'], how='all'): 71 rows
+2025-08-24 18:07:57,664 - INFO - clean_data.py:156 - After dropping rows with 2+ zeros: 64 rows
+2025-08-24 18:07:57,664 - INFO - clean_data.py:160 - Rows before cleaning: 73
+2025-08-24 18:07:57,665 - INFO - clean_data.py:161 - Rows after cleaning: 64
+2025-08-24 18:07:57,666 - INFO - clean_data.py:162 - Rows actually dropped: 9
+2025-08-24 18:07:57,902 - INFO - clean_data.py:124 - Initial rows: 83
+2025-08-24 18:07:57,919 - INFO - clean_data.py:141 - After calculations, before filtering: 83 rows
+2025-08-24 18:07:57,930 - INFO - clean_data.py:145 - After dropna(how='all'): 83 rows
+2025-08-24 18:07:57,936 - INFO - clean_data.py:148 - After dropna(subset=['Total']): 74 rows
+2025-08-24 18:07:57,954 - INFO - clean_data.py:151 - After dropna(subset=['Price', 'Quantity'], how='all'): 70 rows
+2025-08-24 18:07:57,965 - INFO - clean_data.py:156 - After dropping rows with 2+ zeros: 69 rows
+2025-08-24 18:07:57,966 - INFO - clean_data.py:160 - Rows before cleaning: 83
+2025-08-24 18:07:57,967 - INFO - clean_data.py:161 - Rows after cleaning: 69
+2025-08-24 18:07:57,967 - INFO - clean_data.py:162 - Rows actually dropped: 14
+2025-08-24 18:07:58,349 - INFO - clean_data.py:124 - Initial rows: 73
+2025-08-24 18:07:58,400 - INFO - clean_data.py:141 - After calculations, before filtering: 73 rows
+2025-08-24 18:07:58,411 - INFO - clean_data.py:145 - After dropna(how='all'): 73 rows
+2025-08-24 18:07:58,433 - INFO - clean_data.py:148 - After dropna(subset=['Total']): 70 rows
+2025-08-24 18:07:58,444 - INFO - clean_data.py:151 - After dropna(subset=['Price', 'Quantity'], how='all'): 70 rows
+2025-08-24 18:07:58,465 - INFO - clean_data.py:156 - After dropping rows with 2+ zeros: 69 rows
+2025-08-24 18:07:58,469 - INFO - clean_data.py:160 - Rows before cleaning: 73
+2025-08-24 18:07:58,480 - INFO - clean_data.py:161 - Rows after cleaning: 69
+2025-08-24 18:07:58,482 - INFO - clean_data.py:162 - Rows actually dropped: 4
+2025-08-24 18:08:27,656 - INFO - main.py:13 - ------Program Started-----
+2025-08-24 18:08:27,755 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-24 18:08:27,756 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-24 18:08:27,805 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:08:27,806 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-24 18:08:27,837 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:08:27,838 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-24 18:08:27,956 - INFO - clean_data.py:124 - Initial rows: 73
+2025-08-24 18:08:27,975 - INFO - clean_data.py:141 - After calculations, before filtering: 73 rows
+2025-08-24 18:08:27,992 - INFO - clean_data.py:145 - After dropna(how='all'): 73 rows
+2025-08-24 18:08:28,047 - INFO - clean_data.py:148 - After dropna(subset=['Total']): 71 rows
+2025-08-24 18:08:28,069 - INFO - clean_data.py:151 - After dropna(subset=['Price', 'Quantity'], how='all'): 71 rows
+2025-08-24 18:08:28,090 - INFO - clean_data.py:156 - After dropping rows with 2+ zeros: 64 rows
+2025-08-24 18:08:28,091 - INFO - clean_data.py:160 - Rows before cleaning: 73
+2025-08-24 18:08:28,091 - INFO - clean_data.py:161 - Rows after cleaning: 64
+2025-08-24 18:08:28,099 - INFO - clean_data.py:162 - Rows actually dropped: 9
+2025-08-24 18:08:28,362 - INFO - clean_data.py:124 - Initial rows: 83
+2025-08-24 18:08:28,414 - INFO - clean_data.py:141 - After calculations, before filtering: 83 rows
+2025-08-24 18:08:28,429 - INFO - clean_data.py:145 - After dropna(how='all'): 83 rows
+2025-08-24 18:08:28,438 - INFO - clean_data.py:148 - After dropna(subset=['Total']): 74 rows
+2025-08-24 18:08:28,450 - INFO - clean_data.py:151 - After dropna(subset=['Price', 'Quantity'], how='all'): 70 rows
+2025-08-24 18:08:28,454 - INFO - clean_data.py:156 - After dropping rows with 2+ zeros: 69 rows
+2025-08-24 18:08:28,455 - INFO - clean_data.py:160 - Rows before cleaning: 83
+2025-08-24 18:08:28,455 - INFO - clean_data.py:161 - Rows after cleaning: 69
+2025-08-24 18:08:28,456 - INFO - clean_data.py:162 - Rows actually dropped: 14
+2025-08-24 18:08:28,623 - INFO - clean_data.py:124 - Initial rows: 73
+2025-08-24 18:08:28,648 - INFO - clean_data.py:141 - After calculations, before filtering: 73 rows
+2025-08-24 18:08:28,651 - INFO - clean_data.py:145 - After dropna(how='all'): 73 rows
+2025-08-24 18:08:28,657 - INFO - clean_data.py:148 - After dropna(subset=['Total']): 70 rows
+2025-08-24 18:08:28,666 - INFO - clean_data.py:151 - After dropna(subset=['Price', 'Quantity'], how='all'): 70 rows
+2025-08-24 18:08:28,671 - INFO - clean_data.py:156 - After dropping rows with 2+ zeros: 69 rows
+2025-08-24 18:08:28,671 - INFO - clean_data.py:160 - Rows before cleaning: 73
+2025-08-24 18:08:28,673 - INFO - clean_data.py:161 - Rows after cleaning: 69
+2025-08-24 18:08:28,674 - INFO - clean_data.py:162 - Rows actually dropped: 4
+2025-08-24 18:13:20,959 - INFO - main.py:13 - ------Program Started-----
+2025-08-24 18:13:20,989 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-24 18:13:20,995 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-24 18:13:21,023 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:13:21,023 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-24 18:13:21,050 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:13:21,051 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-24 18:13:21,135 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 18:13:21,135 - INFO - clean_data.py:152 - Rows after cleaning: 64
+2025-08-24 18:13:21,136 - INFO - clean_data.py:153 - Rows actually dropped: 9
+2025-08-24 18:13:21,390 - INFO - clean_data.py:151 - Rows before cleaning: 83
+2025-08-24 18:13:21,391 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 18:13:21,392 - INFO - clean_data.py:153 - Rows actually dropped: 14
+2025-08-24 18:13:21,641 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 18:13:21,642 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 18:13:21,643 - INFO - clean_data.py:153 - Rows actually dropped: 4
+2025-08-24 18:15:42,439 - INFO - main.py:13 - ------Program Started-----
+2025-08-24 18:15:42,453 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-24 18:15:42,454 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-24 18:15:42,472 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:15:42,473 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-24 18:15:42,484 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:15:42,485 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-24 18:15:42,620 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 18:15:42,647 - INFO - clean_data.py:152 - Rows after cleaning: 64
+2025-08-24 18:15:42,657 - INFO - clean_data.py:153 - Rows actually dropped: 9
+2025-08-24 18:15:42,842 - INFO - clean_data.py:151 - Rows before cleaning: 83
+2025-08-24 18:15:42,842 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 18:15:42,843 - INFO - clean_data.py:153 - Rows actually dropped: 14
+2025-08-24 18:15:42,953 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 18:15:42,955 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 18:15:42,956 - INFO - clean_data.py:153 - Rows actually dropped: 4
+2025-08-24 18:17:06,930 - INFO - main.py:13 - ------Program Started-----
+2025-08-24 18:17:06,954 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-24 18:17:06,955 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-24 18:17:06,979 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:17:06,980 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-24 18:17:07,001 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:17:07,002 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-24 18:17:07,080 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 18:17:07,081 - INFO - clean_data.py:152 - Rows after cleaning: 64
+2025-08-24 18:17:07,081 - INFO - clean_data.py:153 - Rows actually dropped: 9
+2025-08-24 18:17:07,213 - INFO - clean_data.py:151 - Rows before cleaning: 83
+2025-08-24 18:17:07,214 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 18:17:07,216 - INFO - clean_data.py:153 - Rows actually dropped: 14
+2025-08-24 18:17:07,505 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 18:17:07,506 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 18:17:07,507 - INFO - clean_data.py:153 - Rows actually dropped: 4
+2025-08-24 18:18:16,578 - INFO - main.py:13 - ------Program Started-----
+2025-08-24 18:18:16,602 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-24 18:18:16,603 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-24 18:18:16,635 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:18:16,636 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-24 18:18:16,660 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:18:16,661 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-24 18:18:16,744 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 18:18:16,745 - INFO - clean_data.py:152 - Rows after cleaning: 64
+2025-08-24 18:18:16,746 - INFO - clean_data.py:153 - Rows actually dropped: 9
+2025-08-24 18:18:16,966 - INFO - clean_data.py:151 - Rows before cleaning: 83
+2025-08-24 18:18:16,967 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 18:18:16,968 - INFO - clean_data.py:153 - Rows actually dropped: 14
+2025-08-24 18:18:17,258 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 18:18:17,259 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 18:18:17,260 - INFO - clean_data.py:153 - Rows actually dropped: 4
+2025-08-24 18:29:42,287 - INFO - main.py:14 - ------Program Started-----
+2025-08-24 18:29:42,315 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-24 18:29:42,316 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-24 18:29:42,347 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:29:42,348 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-24 18:29:42,413 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:29:42,440 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-24 18:29:42,614 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 18:29:42,615 - INFO - clean_data.py:152 - Rows after cleaning: 64
+2025-08-24 18:29:42,615 - INFO - clean_data.py:153 - Rows actually dropped: 9
+2025-08-24 18:29:42,699 - INFO - clean_data.py:151 - Rows before cleaning: 83
+2025-08-24 18:29:42,699 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 18:29:42,701 - INFO - clean_data.py:153 - Rows actually dropped: 14
+2025-08-24 18:29:42,782 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 18:29:42,783 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 18:29:42,784 - INFO - clean_data.py:153 - Rows actually dropped: 4
+2025-08-24 18:29:58,946 - INFO - main.py:14 - ------Program Started-----
+2025-08-24 18:29:58,973 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-24 18:29:58,977 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-24 18:29:59,005 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:29:59,005 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-24 18:29:59,031 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:29:59,031 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-24 18:29:59,097 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 18:29:59,098 - INFO - clean_data.py:152 - Rows after cleaning: 64
+2025-08-24 18:29:59,098 - INFO - clean_data.py:153 - Rows actually dropped: 9
+2025-08-24 18:29:59,170 - INFO - clean_data.py:151 - Rows before cleaning: 83
+2025-08-24 18:29:59,170 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 18:29:59,172 - INFO - clean_data.py:153 - Rows actually dropped: 14
+2025-08-24 18:29:59,234 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 18:29:59,234 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 18:29:59,235 - INFO - clean_data.py:153 - Rows actually dropped: 4
+2025-08-24 18:31:30,829 - INFO - main.py:14 - ------Program Started-----
+2025-08-24 18:31:30,845 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-24 18:31:30,845 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-24 18:31:30,865 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:31:30,866 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-24 18:31:30,884 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:31:30,885 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-24 18:31:30,962 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 18:31:30,963 - INFO - clean_data.py:152 - Rows after cleaning: 64
+2025-08-24 18:31:30,963 - INFO - clean_data.py:153 - Rows actually dropped: 9
+2025-08-24 18:31:31,051 - INFO - clean_data.py:151 - Rows before cleaning: 83
+2025-08-24 18:31:31,052 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 18:31:31,052 - INFO - clean_data.py:153 - Rows actually dropped: 14
+2025-08-24 18:31:31,121 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 18:31:31,122 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 18:31:31,125 - INFO - clean_data.py:153 - Rows actually dropped: 4
+2025-08-24 18:56:44,241 - INFO - main.py:14 - ------Program Started-----
+2025-08-24 18:56:44,256 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-24 18:56:44,257 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-24 18:56:44,273 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:56:44,275 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-24 18:56:44,299 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:56:44,299 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-24 18:56:44,385 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 18:56:44,386 - INFO - clean_data.py:152 - Rows after cleaning: 64
+2025-08-24 18:56:44,387 - INFO - clean_data.py:153 - Rows actually dropped: 9
+2025-08-24 18:56:44,470 - INFO - clean_data.py:151 - Rows before cleaning: 83
+2025-08-24 18:56:44,471 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 18:56:44,471 - INFO - clean_data.py:153 - Rows actually dropped: 14
+2025-08-24 18:56:44,533 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 18:56:44,533 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 18:56:44,534 - INFO - clean_data.py:153 - Rows actually dropped: 4
+2025-08-24 18:56:54,876 - INFO - main.py:14 - ------Program Started-----
+2025-08-24 18:56:54,903 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ';'
+2025-08-24 18:56:54,904 - INFO - load_files.py:70 - Loaded file: regional_sales.csv with 73 rows
+2025-08-24 18:56:54,936 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:56:54,936 - INFO - load_files.py:70 - Loaded file: sales_backup.csv with 83 rows
+2025-08-24 18:56:54,967 - INFO - load_files.py:44 - Successfully loaded CSV with delimiter ','
+2025-08-24 18:56:54,968 - INFO - load_files.py:70 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-24 18:56:55,059 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 18:56:55,059 - INFO - clean_data.py:152 - Rows after cleaning: 64
+2025-08-24 18:56:55,060 - INFO - clean_data.py:153 - Rows actually dropped: 9
+2025-08-24 18:56:55,178 - INFO - clean_data.py:151 - Rows before cleaning: 83
+2025-08-24 18:56:55,178 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 18:56:55,179 - INFO - clean_data.py:153 - Rows actually dropped: 14
+2025-08-24 18:56:55,283 - INFO - clean_data.py:151 - Rows before cleaning: 73
+2025-08-24 18:56:55,284 - INFO - clean_data.py:152 - Rows after cleaning: 69
+2025-08-24 18:56:55,284 - INFO - clean_data.py:153 - Rows actually dropped: 4
