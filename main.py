@@ -45,9 +45,6 @@ def main():
     for name, df in dataFrames.items():
         cleaner.add_df(name, df)
 
-    target = list(cleaner.pending_dfs.keys())[0]
-    # cleaner.clean_pending_df(target)
-
     dfs = {}
     for name in cleaner.pending_dfs.keys():
         print(f"\n=== Processing {name} ===")
@@ -62,9 +59,9 @@ def main():
         
         with pd.option_context('display.max_columns', None):
             print(df.columns.tolist())
-            print(df.head(25))
+            print(df.head())
 
-            
+
     end_time = time.time()
     print(f"Elapsed: {end_time - start_time:.2f} seconds")
 
