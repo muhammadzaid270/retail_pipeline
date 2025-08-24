@@ -62,15 +62,9 @@ def main():
         
         with pd.option_context('display.max_columns', None):
             print(df.columns.tolist())
-            print(df.info())
-            # print(df.head())
-            # print(f"{df['Quantity']} \n {df['Price']} \n {df['Total']}")
-        
-    # for i, (name, df) in enumerate(dfs.items()):
-        # print(f"{i+1}: {df.columns.tolist()}")
-        # with pd.option_context('display.max_columns', None):
-        #     print(f"\n{i+1}) DataFrame '{name}', Shape: {df.shape}: \n {df.head()}")
+            print(df.head(25))
 
+            
     end_time = time.time()
     print(f"Elapsed: {end_time - start_time:.2f} seconds")
 

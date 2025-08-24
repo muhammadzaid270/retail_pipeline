@@ -88,7 +88,6 @@ class DataCleaner:
             df[col] = df[col].astype('string').str.strip()
             
             # Handle common date format issues
-            # Replace invalid formats like "17-03-2025" with "2025-03-17"
             mask_invalid_format = df[col].str.match(r'^\d{2}-\d{2}-\d{4}$', na=False)
             df.loc[mask_invalid_format, col] = df.loc[mask_invalid_format, col].str.replace(
                 r'^(\d{2})-(\d{2})-(\d{4})$', r'\3-\2-\1', regex=True
@@ -101,10 +100,6 @@ class DataCleaner:
             valid_dates = df[col].notna().sum()
             total_rows = len(df)
             logger.info(f"Date cleaning: {valid_dates}/{total_rows} dates successfully parsed")
-            
-            # Only drop rows with completely invalid dates if they're critical for the analysis
-            # For now, let's keep rows with invalid dates and fill them with a default value
-            # df.dropna(subset=[col], inplace=True)  # Commented out to preserve rows
             
             return df
         except Exception as e:
@@ -137,7 +132,6 @@ class DataCleaner:
             # Calculate Net Total
             df['Net_Total'] = df['Total'] - (df['Commission'].fillna(0) + df['Tax_Amount'].fillna(0))
 
-            # Drop rows where still NaN after calculations
             df = (df
                 .dropna(how='all')
                 .dropna(subset=['Total'])
@@ -160,11 +154,11 @@ class DataCleaner:
             raise     
 
     # Drop unnecessary columns
-    def _drop_columns(self, df, cols = None):
+    def _drop_columns(self, df, columns = None):
         try:
-            if cols is None:
-                cols = ['Email', 'Phone', 'Shipping_Address', 'Order_Priority', 'Notes']
-            existing_cols = [col for col in cols if col in df.columns]
+            if columns is None:
+                columns = ['Email', 'Phone', 'Shipping_Address', 'Order_Priority', 'Notes']
+            existing_cols = [col for col in columns if col in df.columns]
             df = (df.drop(columns=existing_cols, axis=1) if existing_cols else df)
             return df
         except Exception as e:
