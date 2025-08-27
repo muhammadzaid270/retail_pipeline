@@ -65,7 +65,7 @@ class DataSaver:
             file_path = Path(self.raw_data) / file
             try:
                 if file_path.is_file() and file_path.name in self.processed_dfs:
-                    shutil.move(file_path, Path(self.archive) / f"{file}_{timestamp}")
+                    shutil.move(file_path, Path(self.archive) / f"{file.stem}_{timestamp}.csv")
                     logger.info(f"Moved {file} to archive")
                 else:
                     logger.warning(f"File not found or not processed: {file}")
