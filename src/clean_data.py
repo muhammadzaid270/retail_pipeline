@@ -29,9 +29,9 @@ class DataCleaner:
                 .pipe(self._aggregate_data)
                 .pipe(self._drop_columns)
             )
-            customer_rev, product_rev, regional_rev = self._group_by(df)
+            customer_rev, product_rev, regional_rev, daily_rev, monthly_rev = self._group_by(df)
             self.processed_dfs[name] = df
-            return df, customer_rev, product_rev, regional_rev
+            return df, customer_rev, product_rev, regional_rev, daily_rev, monthly_rev
            
     def _clean_headers(self, df: pd.DataFrame) -> pd.DataFrame:
         if df.shape[1] == 0:
@@ -69,7 +69,6 @@ class DataCleaner:
             if cols is None:
                 cols = ["Customer_Name", 'Sales_Rep', 'Region', 'Payment_Method', "Product_Description"]
 
-            # Join columns and fill missing values
             df = df.reindex(columns=df.columns.union(cols))
             for col in cols:
                 df[col] = (
@@ -94,9 +93,12 @@ class DataCleaner:
             mask_invalid_format = df[col].str.match(r'^\d{2}-\d{2}-\d{4}$', na=False)
             df.loc[mask_invalid_format, col] = df.loc[mask_invalid_format, col].str.replace(
                 r'^(\d{2})-(\d{2})-(\d{4})$', r'\3-\2-\1', regex=True
-            )            
-            df[col] = pd.to_datetime(df[col], errors='coerce')
+                )            
+            df[col] = pd.to_datetime(df[col], format='%Y-%m-%d', errors='coerce')
+            df['Month'] = df[col].dt.strftime('%B %Y')
             df.dropna(subset= [col], inplace=True)
+            df = df.sort_values(by=col, ascending=False).reset_index(drop=True)
+            df[col] = df[col].dt.date
             return df
         except Exception as e:
             logger.error(f"Error Cleaning Date: {e}")
@@ -146,18 +148,36 @@ class DataCleaner:
             customer_rev = df.groupby('Customer_Name')[['Quantity', 'Total', 'Net_Total']].sum().reset_index()
             product_rev  = df.groupby('Product_ID')[['Quantity', 'Total', 'Net_Total']].sum().reset_index()
             regional_rev  = df.groupby('Region')[['Quantity', 'Total', 'Net_Total']].sum().reset_index()
-            return customer_rev, product_rev, regional_rev
+            daily_rev  = df.groupby('Date')[['Quantity', 'Total', 'Net_Total']].sum().reset_index()
+            monthly_rev  = df.groupby('Month')[['Quantity', 'Total', 'Net_Total']].sum().reset_index()
+            return customer_rev, product_rev, regional_rev, daily_rev, monthly_rev
         except Exception as e:
             logging.error(f"Error occurred while grouping: {e}")
 
-
-    # Drop unnecessary columns
     def _drop_columns(self, df: pd.DataFrame, columns: list[str] = None) -> pd.DataFrame:
         try:
             if columns is None:
-                columns = ['Email', 'Phone', 'Shipping_Address', 'Order_Priority', 'Notes']
+                columns = ['Email', 'Phone', 'Shipping_Address', 'Order_Priority', 'Notes'] 
             existing_cols = [col for col in columns if col in df.columns]
             df = (df.drop(columns=existing_cols, axis=1) if existing_cols else df)
+            order = [
+                'Date',
+                'Month',
+                'Customer_ID',
+                'Customer_Name', 
+                'Product_ID', 
+                'Product_Description', 
+                'Region',
+                'Sales_Rep', 
+                'Payment_Method', 
+                'Quantity',
+                'Price', 
+                'Total',
+                'Commission',
+                'Tax_Amount',
+                'Net_Total'
+                ]
+            df = df[order]
             return df
         except Exception as e:
             logger.error(f"Error dropping columns: {e}")

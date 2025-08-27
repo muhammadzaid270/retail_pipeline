@@ -18,8 +18,10 @@ class DataSaver:
         processed_dfs: dict[str, pd.DataFrame],
         customer_rev: pd.DataFrame,
         product_rev: pd.DataFrame,
-        regional_rev: pd.DataFrame
-    ):
+        regional_rev: pd.DataFrame,
+        daily_rev: pd.DataFrame,
+        monthly_rev: pd.DataFrame
+    ) -> None:
         self.raw_files = raw_files
         self.raw_data = raw_data
         self.output = output
@@ -30,6 +32,8 @@ class DataSaver:
         self.customer_rev = customer_rev
         self.product_rev = product_rev
         self.regional_rev = regional_rev
+        self.daily_rev = daily_rev
+        self.monthly_rev = monthly_rev
 
     def save_data(self) -> None:
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
@@ -42,6 +46,7 @@ class DataSaver:
             output_file = Path(self.output) / f'Processed_{Path(name).stem}_{timestamp}.csv'
             if not output_file.exists():
                 df.to_csv(output_file, index=False)
+                logger.info("File processed and saved as %s", output_file.name)
 
     def _save_report(self, timestamp: str) -> None:
         report_file = Path(self.reports) / f'sales_report_{timestamp}.xlsx'
@@ -51,11 +56,13 @@ class DataSaver:
                 self.customer_rev.to_excel(writer, sheet_name="Customer Revenue", index=False)
                 self.product_rev.to_excel(writer, sheet_name="Product Revenue", index=False)
                 self.regional_rev.to_excel(writer, sheet_name="Regional Revenue", index=False)
+                self.daily_rev.to_excel(writer, sheet_name="Daily Revenue", index=False)
+                self.monthly_rev.to_excel(writer, sheet_name="Monthly Revenue", index=False)
 
                 for sheet_name in writer.sheets:
                     worksheet = writer.sheets[sheet_name]
                     worksheet.set_column('A:Z', 20)
-            logger.info(f"Report saved to {report_file}")
+            logger.info("Report saved to %s", report_file)
         except Exception as e:
             logger.critical(f"Fatal error occurred while saving reports: {e}")      
             raise RuntimeError("Error occurred saving report") from e
@@ -68,6 +75,6 @@ class DataSaver:
                     shutil.move(file_path, Path(self.archive) / f"{file.stem}_{timestamp}.csv")
                     logger.info(f"Moved {file} to archive")
                 else:
-                    logger.warning(f"File not found or not processed: {file}")
+                    logger.warning("File not found or not processed: %s", file)
             except Exception as e:
                 logger.error(f"Error moving {file} to archive: {e}")

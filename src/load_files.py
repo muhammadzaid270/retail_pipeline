@@ -1,15 +1,16 @@
 import logging
 import pandas as pd
 from pathlib import Path
+from collections.abc import Iterator
 
 logger = logging.getLogger(__name__)
 
 class DataLoader():
-    def __init__(self, files):
+    def __init__(self, files: list[str | Path]) -> None:
         self.files = files
-        self.failed_files = []
+        self.failed_files: list[Path] = []
     
-    def __iter__(self):
+    def __iter__(self) -> Iterator[tuple[str, pd.DataFrame]]:
         for file in self.files:
             result = self.load_file(file)
             if result is not None:
@@ -19,12 +20,11 @@ class DataLoader():
                 else:
                    logger.warning(f"DataFrame is empty for file: {file_name}")
    
-    def load_file(self, file):
+    def load_file(self, file: str | Path) -> tuple[str, pd.DataFrame] |  None:
         file = Path(file)
         suffix = file.suffix.lower()
         
         try:
-            # Handle CSV files with delimiter detection
             if suffix == '.csv':
                 delimiters = [',', ';', '\t', '|']
                 best_df = None
@@ -46,12 +46,6 @@ class DataLoader():
                     logger.debug(f"Loaded CSV {file.name} using delimiter '{best_delimiter}' with {len(best_df)} rows")
                 else:
                     df = pd.read_csv(file, sep=',')
-            
-            # Handle other file types
-            elif suffix == '.xlsx':
-                df = pd.read_excel(file)
-            elif suffix == '.xls':
-                df = pd.read_excel(file)
             else:
                 logger.error(f"Not supported file type for file: {file.name}")
                 self.failed_files.append(file)

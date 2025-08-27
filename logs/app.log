@@ -2145,3 +2145,224 @@
 2025-08-25 15:23:19,202 - INFO - load_files.py:60 - Loaded file: regional_sales.csv with 73 rows
 2025-08-25 15:23:19,219 - INFO - load_files.py:60 - Loaded file: sales_backup.csv with 83 rows
 2025-08-25 15:23:19,230 - INFO - load_files.py:60 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 13:50:28,730 - INFO - main.py:21 - ------Program Started------
+2025-08-27 13:50:28,774 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 13:50:28,802 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 13:50:28,827 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 13:51:24,403 - INFO - main.py:21 - ------Program Started------
+2025-08-27 13:51:24,414 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 13:51:24,432 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 13:51:24,441 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 13:53:04,048 - INFO - main.py:21 - ------Program Started------
+2025-08-27 13:53:59,169 - INFO - main.py:21 - ------Program Started------
+2025-08-27 13:53:59,181 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 13:53:59,198 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 13:53:59,208 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 13:54:09,371 - INFO - main.py:21 - ------Program Started------
+2025-08-27 13:54:09,383 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 13:54:09,402 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 13:54:09,416 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 14:09:50,879 - INFO - main.py:20 - ------Program Started------
+2025-08-27 14:09:50,892 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 14:09:50,914 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 14:09:50,927 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 14:15:10,921 - INFO - main.py:21 - ------Program Started------
+2025-08-27 14:15:10,935 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 14:15:10,949 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 14:15:10,962 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 14:17:02,368 - INFO - main.py:21 - ------Program Started------
+2025-08-27 14:17:02,380 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 14:17:02,390 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 14:17:02,405 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 14:17:02,594 - INFO - save_data.py:45 - File processed and saved as Processed_regional_sales.csv_20250827_141702.csv
+2025-08-27 14:17:02,599 - INFO - save_data.py:45 - File processed and saved as Processed_sales_backup.csv_20250827_141702.csv
+2025-08-27 14:17:02,606 - INFO - save_data.py:45 - File processed and saved as Processed_sales_data_Q1.csv_20250827_141702.csv
+2025-08-27 14:17:02,837 - CRITICAL - save_data.py:60 - Fatal error occurred while saving reports: 'DataSaver' object has no attribute 'per_customer_rev'
+2025-08-27 14:19:39,585 - INFO - main.py:21 - ------Program Started------
+2025-08-27 14:19:39,596 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 14:19:39,606 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 14:19:39,620 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 14:19:39,808 - INFO - save_data.py:45 - File processed and saved as Processed_regional_sales.csv_20250827_141939.csv
+2025-08-27 14:19:39,825 - INFO - save_data.py:45 - File processed and saved as Processed_sales_backup.csv_20250827_141939.csv
+2025-08-27 14:19:39,842 - INFO - save_data.py:45 - File processed and saved as Processed_sales_data_Q1.csv_20250827_141939.csv
+2025-08-27 14:19:40,020 - INFO - save_data.py:59 - Report saved to C:\Users\muham\Desktop\retail_pipeline\reports\sales_report_20250827_141939.xlsx
+2025-08-27 14:19:40,022 - INFO - save_data.py:70 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv to archive
+2025-08-27 14:19:40,024 - INFO - save_data.py:70 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_backup.csv to archive
+2025-08-27 14:19:40,025 - INFO - save_data.py:70 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_data_Q1.csv to archive
+2025-08-27 14:59:08,204 - INFO - main.py:21 - ------Program Started------
+2025-08-27 14:59:08,249 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 14:59:08,268 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 14:59:08,293 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 14:59:08,679 - INFO - save_data.py:58 - Report saved to C:\Users\muham\Desktop\retail_pipeline\reports\sales_report_20250827_145908.xlsx
+2025-08-27 14:59:08,681 - INFO - save_data.py:69 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv to archive
+2025-08-27 14:59:08,682 - INFO - save_data.py:69 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_backup.csv to archive
+2025-08-27 14:59:08,684 - INFO - save_data.py:69 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_data_Q1.csv to archive
+2025-08-27 15:07:22,174 - INFO - main.py:21 - ------Program Started------
+2025-08-27 15:07:22,197 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 15:07:22,224 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 15:07:22,253 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 15:07:22,603 - INFO - save_data.py:58 - Report saved to C:\Users\muham\Desktop\retail_pipeline\reports\sales_report_20250827_150722.xlsx
+2025-08-27 15:07:22,604 - INFO - save_data.py:69 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv to archive
+2025-08-27 15:07:22,606 - INFO - save_data.py:69 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_backup.csv to archive
+2025-08-27 15:07:22,608 - INFO - save_data.py:69 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_data_Q1.csv to archive
+2025-08-27 15:09:55,878 - INFO - main.py:21 - ------Program Started------
+2025-08-27 15:09:55,879 - WARNING - check_files.py:9 - No csv files found in raw
+2025-08-27 15:09:55,879 - WARNING - main.py:26 - No csv files found.
+2025-08-27 15:12:33,421 - INFO - main.py:21 - ------Program Started------
+2025-08-27 15:12:33,421 - WARNING - check_files.py:9 - No csv files found in raw
+2025-08-27 15:12:33,422 - WARNING - main.py:26 - No csv files found.
+2025-08-27 15:13:48,791 - INFO - main.py:21 - ------Program Started------
+2025-08-27 15:13:48,792 - WARNING - check_files.py:9 - No csv files found in raw
+2025-08-27 15:13:48,792 - WARNING - main.py:26 - No csv files found.
+2025-08-27 15:13:48,793 - WARNING - main.py:57 - No dataframes available to merge.
+2025-08-27 15:16:00,813 - INFO - main.py:21 - ------Program Started------
+2025-08-27 15:16:00,814 - WARNING - check_files.py:9 - No csv files found in raw
+2025-08-27 15:16:00,814 - WARNING - main.py:26 - No files found to continue. Exiting.
+2025-08-27 15:16:30,392 - INFO - main.py:21 - ------Program Started------
+2025-08-27 15:16:30,392 - WARNING - check_files.py:9 - No csv files found in C:\Users\muham\Desktop\retail_pipeline\data\raw
+2025-08-27 15:16:30,393 - WARNING - main.py:26 - No files found to continue. Exiting...
+2025-08-27 15:20:53,912 - INFO - main.py:19 - ------Program Started------
+2025-08-27 15:20:53,912 - WARNING - check_files.py:9 - No csv files found in C:\Users\muham\Desktop\retail_pipeline\data\raw
+2025-08-27 15:20:53,913 - WARNING - main.py:24 - No files found to continue. Exiting...
+2025-08-27 15:21:36,402 - INFO - main.py:19 - ------Program Started------
+2025-08-27 15:21:36,434 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 15:21:36,469 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 15:21:36,502 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 15:21:36,712 - INFO - save_data.py:45 - File processed and saved to C:\Users\muham\Desktop\retail_pipeline\data\processed\Processed_regional_sales_20250827_152136.csv
+2025-08-27 15:21:36,718 - INFO - save_data.py:45 - File processed and saved to C:\Users\muham\Desktop\retail_pipeline\data\processed\Processed_sales_backup_20250827_152136.csv
+2025-08-27 15:21:36,724 - INFO - save_data.py:45 - File processed and saved to C:\Users\muham\Desktop\retail_pipeline\data\processed\Processed_sales_data_Q1_20250827_152136.csv
+2025-08-27 15:21:36,908 - INFO - save_data.py:59 - Report saved to %s, report_file
+2025-08-27 15:21:36,909 - INFO - save_data.py:70 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv to archive
+2025-08-27 15:21:36,911 - INFO - save_data.py:70 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_backup.csv to archive
+2025-08-27 15:21:36,912 - INFO - save_data.py:70 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_data_Q1.csv to archive
+2025-08-27 15:28:14,917 - INFO - main.py:19 - ------Program Started------
+2025-08-27 15:28:14,943 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 15:28:14,966 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 15:28:15,006 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 15:28:15,177 - INFO - save_data.py:45 - File processed and saved as Processed_regional_sales_20250827_152815.csv
+2025-08-27 15:28:15,180 - INFO - save_data.py:45 - File processed and saved as Processed_sales_backup_20250827_152815.csv
+2025-08-27 15:28:15,186 - INFO - save_data.py:45 - File processed and saved as Processed_sales_data_Q1_20250827_152815.csv
+2025-08-27 15:28:15,340 - INFO - save_data.py:59 - Report saved to C:\Users\muham\Desktop\retail_pipeline\reports\sales_report_20250827_152815.xlsx
+2025-08-27 15:28:15,342 - INFO - save_data.py:70 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv to archive
+2025-08-27 15:28:15,343 - INFO - save_data.py:70 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_backup.csv to archive
+2025-08-27 15:28:15,344 - INFO - save_data.py:70 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_data_Q1.csv to archive
+2025-08-27 15:36:49,704 - INFO - main.py:19 - ------Program Started------
+2025-08-27 15:36:49,715 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 15:36:49,725 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 15:36:49,781 - ERROR - clean_data.py:177 - Error dropping columns: "['Notes'] not found in axis"
+2025-08-27 15:36:49,783 - ERROR - clean_data.py:150 - Error occurred while grouping: 'NoneType' object has no attribute 'groupby'
+2025-08-27 15:37:51,192 - INFO - main.py:19 - ------Program Started------
+2025-08-27 15:37:51,207 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 15:37:51,228 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 15:37:51,369 - INFO - save_data.py:45 - File processed and saved as Processed_regional_sales_20250827_153751.csv
+2025-08-27 15:37:51,383 - INFO - save_data.py:45 - File processed and saved as Processed_sales_backup_20250827_153751.csv
+2025-08-27 15:37:51,563 - INFO - save_data.py:59 - Report saved to C:\Users\muham\Desktop\retail_pipeline\reports\sales_report_20250827_153751.xlsx
+2025-08-27 15:37:51,565 - INFO - save_data.py:70 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv to archive
+2025-08-27 15:37:51,566 - INFO - save_data.py:70 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_backup.csv to archive
+2025-08-27 15:39:36,864 - INFO - main.py:19 - ------Program Started------
+2025-08-27 15:39:36,879 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 15:39:36,905 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 15:39:36,929 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 15:39:37,117 - INFO - save_data.py:45 - File processed and saved as Processed_regional_sales_20250827_153937.csv
+2025-08-27 15:39:37,121 - INFO - save_data.py:45 - File processed and saved as Processed_sales_backup_20250827_153937.csv
+2025-08-27 15:39:37,124 - INFO - save_data.py:45 - File processed and saved as Processed_sales_data_Q1_20250827_153937.csv
+2025-08-27 15:39:37,287 - INFO - save_data.py:59 - Report saved to C:\Users\muham\Desktop\retail_pipeline\reports\sales_report_20250827_153937.xlsx
+2025-08-27 15:39:37,288 - INFO - save_data.py:70 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv to archive
+2025-08-27 15:39:37,290 - INFO - save_data.py:70 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_backup.csv to archive
+2025-08-27 15:39:37,291 - INFO - save_data.py:70 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_data_Q1.csv to archive
+2025-08-27 15:41:52,915 - INFO - main.py:19 - ------Program Started------
+2025-08-27 15:41:52,936 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 15:41:52,970 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 15:41:52,980 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 15:41:53,143 - INFO - save_data.py:45 - File processed and saved as Processed_regional_sales_20250827_154153.csv
+2025-08-27 15:41:53,150 - INFO - save_data.py:45 - File processed and saved as Processed_sales_backup_20250827_154153.csv
+2025-08-27 15:41:53,170 - INFO - save_data.py:45 - File processed and saved as Processed_sales_data_Q1_20250827_154153.csv
+2025-08-27 15:41:53,312 - INFO - save_data.py:59 - Report saved to C:\Users\muham\Desktop\retail_pipeline\reports\sales_report_20250827_154153.xlsx
+2025-08-27 15:41:53,314 - INFO - save_data.py:70 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv to archive
+2025-08-27 15:41:53,316 - INFO - save_data.py:70 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_backup.csv to archive
+2025-08-27 15:41:53,317 - INFO - save_data.py:70 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_data_Q1.csv to archive
+2025-08-27 15:43:34,957 - INFO - main.py:19 - ------Program Started------
+2025-08-27 15:43:34,989 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 15:43:35,017 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 15:43:35,040 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 15:44:33,616 - INFO - main.py:19 - ------Program Started------
+2025-08-27 15:44:33,631 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 15:44:33,649 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 15:44:33,663 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 15:53:42,828 - INFO - main.py:19 - ------Program Started------
+2025-08-27 15:53:42,839 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 15:53:42,850 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 15:53:42,864 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 15:54:11,756 - INFO - main.py:19 - ------Program Started------
+2025-08-27 15:54:11,772 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 15:54:11,788 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 15:54:11,810 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 15:54:54,335 - INFO - main.py:19 - ------Program Started------
+2025-08-27 15:54:54,347 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 15:54:54,360 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 15:54:54,374 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 15:55:23,034 - INFO - main.py:19 - ------Program Started------
+2025-08-27 15:55:23,047 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 15:55:23,059 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 15:55:23,076 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 15:56:39,850 - INFO - main.py:19 - ------Program Started------
+2025-08-27 15:56:39,863 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 15:56:39,879 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 15:56:39,887 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 15:59:23,629 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 15:59:23,638 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 15:59:23,649 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 15:59:23,860 - INFO - save_data.py:49 - File processed and saved as Processed_regional_sales_20250827_155923.csv
+2025-08-27 15:59:23,880 - INFO - save_data.py:49 - File processed and saved as Processed_sales_backup_20250827_155923.csv
+2025-08-27 15:59:23,884 - INFO - save_data.py:49 - File processed and saved as Processed_sales_data_Q1_20250827_155923.csv
+2025-08-27 15:59:24,053 - INFO - save_data.py:65 - Report saved to C:\Users\muham\Desktop\retail_pipeline\reports\sales_report_20250827_155923.xlsx
+2025-08-27 15:59:24,054 - INFO - save_data.py:76 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv to archive
+2025-08-27 15:59:24,055 - INFO - save_data.py:76 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_backup.csv to archive
+2025-08-27 15:59:24,057 - INFO - save_data.py:76 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_data_Q1.csv to archive
+2025-08-27 16:05:38,972 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 16:05:39,000 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 16:05:39,035 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 16:05:39,065 - ERROR - clean_data.py:103 - Error Cleaning Date: Can only use .dt accessor with datetimelike values
+2025-08-27 16:08:53,980 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 16:08:53,991 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 16:08:54,000 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 16:08:54,023 - ERROR - clean_data.py:103 - Error Cleaning Date: Can only use .dt accessor with datetimelike values
+2025-08-27 16:16:07,071 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 16:16:07,081 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 16:16:07,090 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 16:16:07,320 - INFO - save_data.py:49 - File processed and saved as Processed_regional_sales_20250827_161607.csv
+2025-08-27 16:16:07,337 - INFO - save_data.py:49 - File processed and saved as Processed_sales_backup_20250827_161607.csv
+2025-08-27 16:16:07,344 - INFO - save_data.py:49 - File processed and saved as Processed_sales_data_Q1_20250827_161607.csv
+2025-08-27 16:16:07,557 - INFO - save_data.py:65 - Report saved to C:\Users\muham\Desktop\retail_pipeline\reports\sales_report_20250827_161607.xlsx
+2025-08-27 16:16:07,559 - INFO - save_data.py:76 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv to archive
+2025-08-27 16:16:07,560 - INFO - save_data.py:76 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_backup.csv to archive
+2025-08-27 16:16:07,562 - INFO - save_data.py:76 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_data_Q1.csv to archive
+2025-08-27 16:33:46,248 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 16:33:46,273 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 16:33:46,306 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 16:34:13,367 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 16:34:13,389 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 16:34:13,416 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 16:35:11,353 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 16:35:11,363 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 16:35:11,375 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 16:36:16,906 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 16:36:16,916 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 16:36:16,933 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 16:36:17,166 - INFO - save_data.py:49 - File processed and saved as Processed_regional_sales_20250827_163617.csv
+2025-08-27 16:36:17,191 - INFO - save_data.py:49 - File processed and saved as Processed_sales_backup_20250827_163617.csv
+2025-08-27 16:36:17,198 - INFO - save_data.py:49 - File processed and saved as Processed_sales_data_Q1_20250827_163617.csv
+2025-08-27 16:36:17,405 - INFO - save_data.py:65 - Report saved to C:\Users\muham\Desktop\retail_pipeline\reports\sales_report_20250827_163617.xlsx
+2025-08-27 16:36:17,407 - INFO - save_data.py:76 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv to archive
+2025-08-27 16:36:17,408 - INFO - save_data.py:76 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_backup.csv to archive
+2025-08-27 16:36:17,410 - INFO - save_data.py:76 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_data_Q1.csv to archive
+2025-08-27 16:39:30,020 - INFO - load_files.py:54 - Loaded file: regional_sales.csv with 73 rows
+2025-08-27 16:39:30,045 - INFO - load_files.py:54 - Loaded file: sales_backup.csv with 83 rows
+2025-08-27 16:39:30,077 - INFO - load_files.py:54 - Loaded file: sales_data_Q1.csv with 73 rows
+2025-08-27 16:39:30,294 - INFO - save_data.py:49 - File processed and saved as Processed_regional_sales_20250827_163930.csv
+2025-08-27 16:39:30,303 - INFO - save_data.py:49 - File processed and saved as Processed_sales_backup_20250827_163930.csv
+2025-08-27 16:39:30,307 - INFO - save_data.py:49 - File processed and saved as Processed_sales_data_Q1_20250827_163930.csv
+2025-08-27 16:39:30,499 - INFO - save_data.py:65 - Report saved to C:\Users\muham\Desktop\retail_pipeline\reports\sales_report_20250827_163930.xlsx
+2025-08-27 16:39:30,501 - INFO - save_data.py:76 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\regional_sales.csv to archive
+2025-08-27 16:39:30,503 - INFO - save_data.py:76 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_backup.csv to archive
+2025-08-27 16:39:30,504 - INFO - save_data.py:76 - Moved C:\Users\muham\Desktop\retail_pipeline\data\raw\sales_data_Q1.csv to archive

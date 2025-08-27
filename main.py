@@ -1,25 +1,26 @@
-from config.config import setup_logging, RAW_DATA_PATH,OUTPUT_DATA_PATH, ARCHIVE_DATA_PATH, REPORTS_PATH
-from src.check_files import get_csv_files, get_excel_files
+from config.config import setup_logging, FOLDERS, RAW_DATA_PATH,OUTPUT_DATA_PATH, ARCHIVE_DATA_PATH, REPORTS_PATH
+from src.check_files import get_csv_files
 from src.load_files import DataLoader
 from src.clean_data import DataCleaner
 from src.save_data import DataSaver
 import logging
 import time
 import pandas as pd
+from pathlib import Path
 
 def main():
-    start_time = time.time()
-
-    #Logging Setup
+    #Setup
+    for folder in FOLDERS:
+        folder.mkdir(parents=True, exist_ok=True)
+    
     setup_logging() 
     logger = logging.getLogger(__name__)
-
-    logger.info("------Program Started------")
 
     #Check files
     raw_files = get_csv_files(RAW_DATA_PATH)
     if not raw_files:
-        logger.warning("No csv files found.")
+        logger.warning("No files found to continue. Exiting...")
+        return
 
     #Load Data
     load_data = DataLoader(raw_files)
@@ -38,22 +39,42 @@ def main():
 
     processed_dfs = {}
     for name in cleaner.pending_dfs.keys():
-        print(f"\n=== Processing {name} ===")
-        print(f"Original shape: {cleaner.pending_dfs[name].shape}")
+        logger.debug("\n=== Processing %s ===", name)
+        logger.debug("Original shape: %s",cleaner.pending_dfs[name].shape)
 
-        df, per_customer_rev, per_product_rev = cleaner.clean_data(name)
+        df, customer_rev, product_rev, regional_rev, daily_rev, monthly_rev = cleaner.clean_data(name)
         processed_dfs[name] = df
         
-        print(f"After cleaning shape: {df.shape}")
+        logger.debug("After cleaning shape: %s", df.shape)
 
     # Merge and Save Data
-    merged_df = pd.concat([df for df in processed_dfs.values()], ignore_index=True)
-    processed_dfs = [df for df in processed_dfs.values()]
-    saver = DataSaver(raw_files, RAW_DATA_PATH, OUTPUT_DATA_PATH, ARCHIVE_DATA_PATH, REPORTS_PATH, merged_df, processed_dfs, per_customer_rev, per_product_rev)
+    if processed_dfs:
+        merged_df = pd.concat([df for df in processed_dfs.values()], ignore_index=True)
+        merged_df = merged_df.sort_values(by='Date', ascending=False).reset_index(drop=True)
+        logger.debug("Sucessfully merged all the processed dataframes. Shape: %s", merged_df.shape)
+    else:
+        logger.warning("No dataframes available to merge.")
+        return
+    saver = DataSaver(
+        raw_files,
+        RAW_DATA_PATH,
+        OUTPUT_DATA_PATH,
+        ARCHIVE_DATA_PATH,
+        REPORTS_PATH, 
+        merged_df, 
+        processed_dfs, 
+        customer_rev,
+        product_rev,
+        regional_rev,
+        daily_rev,
+        monthly_rev
+        )
     saver.save_data()
 
-    end_time = time.time()
-    print(f"Elapsed: {end_time - start_time:.2f} seconds")
-    
+
 if __name__ == '__main__':
+    start = time.time()
     main()
+    end = time.time()
+    elapsed = start - end
+    print(f"Time elapsed: {elapsed:.2f} seconds")
