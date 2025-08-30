@@ -1,18 +1,2 @@
-# Retail Data Cleaning Pipeline
-
-## Goal
-Automate cleaning and reporting for messy retail data files.
-
-## Phases
-1. Setup and Config
-2. Data Generation
-3. Data Cleaning
-4. Data Transformation
-5. Reporting
-6. Packaging
-
-## Folder Structure
-(Insert tree above)
-
-## Next Action
-Start with `config/settings.py` to define input/output paths.
+# retail_pipeline
+This project automates the process of cleaning, transforming, and consolidating retail CSV files into ready-to-use reports. It’s built with Python and pandas using a modular structure; separate components handle configuration, file checks, data loading, cleaning, saving, and reporting.
