@@ -23,7 +23,7 @@ class DataLoader():
     def load_file(self, file: str | Path) -> tuple[str, pd.DataFrame] |  None:
         file = Path(file)
         suffix = file.suffix.lower()
-        
+
         try:
             if suffix == '.csv':
                 delimiters = [',', ';', '\t', '|']
@@ -45,6 +45,7 @@ class DataLoader():
                     df = best_df
                     logger.debug(f"Loaded CSV {file.name} using delimiter '{best_delimiter}' with {len(best_df)} rows")
                 else:
+                    logger.debug("Cannot find best delimiter; falling back to comma")
                     df = pd.read_csv(file, sep=',')
             else:
                 logger.error(f"Not supported file type for file: {file.name}")

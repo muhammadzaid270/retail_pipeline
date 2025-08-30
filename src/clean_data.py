@@ -1,6 +1,5 @@
-import pandas as pd
-import numpy as np
 from config.schema_mapping import mapping
+import pandas as pd
 import logging
 
 logger = logging.getLogger(__name__)
@@ -34,6 +33,7 @@ class DataCleaner:
             return df, customer_rev, product_rev, regional_rev, daily_rev, monthly_rev
            
     def _clean_headers(self, df: pd.DataFrame) -> pd.DataFrame:
+        logger.debug("Cleaning Headers: ")
         if df.shape[1] == 0:
             logger.warning("DataFrame has no columns.")
             return df
@@ -46,14 +46,18 @@ class DataCleaner:
                 )
             df.rename(columns=mapping, inplace=True)
             df.dropna(how='all', inplace=True)
+
+            logger.debug("Cleaned column headers by removing empty spaces and used column mapping to standardize column names. Standard column names: %s",print(f for f in df.colums))
+
             return df
         except Exception as e:
             logger.error(f"Error cleaning headers: {e}")
 
     def _clean_ids(self, df: pd.DataFrame) -> pd.DataFrame: 
+            logger.debug("Converting 'Customer_ID' to numeric, coercing errors.")
             if 'Customer_ID' in df.columns:
                 df['Customer_ID'] = pd.to_numeric(df['Customer_ID'], errors='coerce').astype('Int64')
-                            
+                        
             if 'Product_ID' in df.columns:
                 df['Product_ID'] = (
                     df['Product_ID']
@@ -75,7 +79,7 @@ class DataCleaner:
                     df[col]
                     .astype('string')
                     .str.strip()
-                    .replace(['', ' '], np.nan)
+                    .replace(['', ' '], pd.NA)
                     .fillna("No Description Available" if col == "Product_Description" else "Unknown")
                     )
             return df
@@ -109,7 +113,7 @@ class DataCleaner:
                 cols = ['Total', 'Price', 'Quantity', 'Commission', 'Tax_Amount','Net_Total']
             for col in cols:
                 if col not in df.columns:
-                    df[col] = np.nan
+                    df[col] = pd.NA
             df[cols] = df[cols].apply(pd.to_numeric, errors='coerce')
 
             # Calculate Total

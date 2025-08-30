@@ -6,7 +6,6 @@ from src.save_data import DataSaver
 import logging
 import time
 import pandas as pd
-from pathlib import Path
 
 def main():
     #Setup
@@ -70,7 +69,7 @@ def main():
         monthly_rev
         )
     saver.save_data()
-
+    logger.debug("Processing completed and files saved.")
 
 if __name__ == '__main__':
     start = time.time()
