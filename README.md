@@ -3,7 +3,7 @@ This project automates the process of cleaning, transforming, and consolidating 
 
 
 # To run unit tests
-Run from the root:
-`python tests\test_name.py`
-Run all test files at once:
-`python -m unittest discover -s tests -p "test*.py"`
+Run from the root:  
+`python tests\test_name.py`  
+Run all test files at once:  
+`python -m unittest discover -s tests -p "test*.py"`  
